@@ -22,10 +22,14 @@ amt_30 = 0.0
 # calculates returns
 
 # return on 10 years
+amt_10 = principle_amt * (1 + return_rate)**10
 
 # return on 20 years
+amt_20 = principle_amt * (1 + return_rate)**20
 
 # return on 30 years
+amt_30 = principle_amt * (1 + return_rate)**30
+
 
 # display returns
-
+print(f"${amt_10:.2f} \n${amt_20:.2f} \n${amt_30:.2f}")
