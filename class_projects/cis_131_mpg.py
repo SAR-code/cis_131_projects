@@ -15,15 +15,19 @@ def main():
     '''
     Runs the entire application by performing actions 'A', 'B', and 'C'
     as mentioned above. Declares local variables within the function
+
+    action: Runs the script cis_131_mpg.py to invoke necessary functions 
+            and run the while loops
+            
+    input: User inputs the miles driven and gallons consumed
     
-    action:
-    input: none
-    output: none
-    return: none
+    output: The miles driven per trip, gallons consumed per trip, and the mpg
+            per trip. also outputs the combined miles, gallons, and mpg
+    
+    return: None
     
     '''
-    print("Hello Main")
-    
+
     # declare local variables and sentinel values
 
     miles_driven = 0
@@ -42,8 +46,10 @@ def main():
         
         miles_driven += get_miles_driven
         gallons_used += get_gallons_used
+        miles_per_gallon = get_miles_driven / get_gallons_used
         
         print(f'miles: {miles_driven} \ngallons: {gallons_used}')
+        print(f'The mpg for this tank was {miles_per_gallon}')
         
         # prompts user to continue to add input
         additional_inputs = str(input("Add another trip? Type 'y' or 'n' "))
@@ -55,13 +61,37 @@ def main():
             stop_input = -1
         else:
             print("Please enter either 'y' or 'n'.")
-
-
-# declare a function to calculate and display mpg obtained each tankful
+        
+        # invokes get_combined_mpg to output the total numbers calculated
+        
+        get_combined_mpg(miles_driven, gallons_used)
 
 
 # declare a function that calculate and displays total mpg and total tankfuls
 
-# invokes main function
+def get_combined_mpg(total_miles: float, total_gallons: float ):
+    '''
+    Receives arguments for combined miles and gallons and outputs the
+    total miles driven, total gallons used.
+    
+    action: Calculates total miles and total gallons consumed and outputs
+            combined mpg
+            
+    input: Arguments for total miles and total gallons
+    
+    output: The calculated total mpg, miles driven, and gallons consumed
+    
+    return: None
+    '''
+    
+    # calculates the combined total mpg
+    
+    combined_total_mpg = total_miles / total_gallons
+    
+    print(f'The total miles driven was {total_miles}',
+          f'\nThe total gallons consumed was {total_gallons}',
+          f'\nThe combined mpg for the trip is {combined_total_mpg}'
+          )
 
+# invokes main function
 main()
