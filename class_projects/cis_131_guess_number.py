@@ -8,7 +8,7 @@ action: Receives user input to guess a number between 1 to 1000. Based on the
 author: Dylan McCallum
 date: 02SEP24
 '''
-# import modules
+# import random module
 import random
 
 # declare main function to house all of the operations
@@ -31,13 +31,13 @@ def main():
 
     return: None
     '''
-    print("hello main")
-
     # declare local variables and sentinel
     
     random_num = random.randint(1, 1000)
     num_of_guesses = 0
     play_again = 0      # sentinel value
+    
+    # local variables that contain string messages
     
     guess_msg = 'Guess my number between 1 and 1000 with the fewest guesses: '
     play_msg = "\nWould you like to play again? Enter 'y' or 'n': "
@@ -62,12 +62,16 @@ def main():
                 print("Too Low. Try again")
                 num_of_guesses += 1
             elif users_guess_num == random_num:
+                
                 # outputs congratulations message
                 print("Congratulations! You guessed the number!")
                 print(f"\nYou took {num_of_guesses} guesses\n")
                 print("Either you know the secret or got lucky!")
                 
+                # users response to continue the game, resets local values
                 user_response = str(input(play_msg)).lower()
+                
+                # conditional statement to compare user's response
                 
                 if user_response == 'y':
                     num_of_guesses = 0
