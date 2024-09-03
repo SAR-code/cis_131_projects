@@ -33,23 +33,24 @@ def main():
     '''
     # declare local variables and sentinel
 
-    random_num = random.randint(1, 1000)
-    num_of_guesses = 0
-    play_again = 0      # sentinel value
-
+    num_of_guesses = 1
+    play_again = 0     # sentinel value
+    
     # local variables that contain string messages
 
     guess_msg = 'Guess my number between 1 and 1000 with the fewest guesses: '
-    play_msg = "\nWould you like to play again? Enter 'y' or 'n': "
-
+    
     # declare a while loop to track the amount of guesses
-
+    
     while play_again == 0:
 
+        # invoke get_random_num function
+        random_num = get_random_num()
+            
         # declare inner while loop to track the number of guesses
 
-        while num_of_guesses < 10:
-
+        while num_of_guesses < 11:
+            
             # receives user's guess input
             users_guess_num = int(input(guess_msg))
 
@@ -58,48 +59,55 @@ def main():
             if users_guess_num > random_num:
                 print("Too High. Try Again.")
                 num_of_guesses += 1
+                
             elif users_guess_num < random_num:
                 print("Too Low. Try again")
                 num_of_guesses += 1
+                
             elif users_guess_num == random_num:
 
-                # outputs congratulations message
-                print("Congratulations! You guessed the number!")
-                print(f"\nYou took {num_of_guesses} guesses\n")
+                # outputs congratulations message then breaks out of loop
+                
+                print("\nCongratulations! You guessed the number!")
+                print(f"\nYou took {num_of_guesses} guesses!\n")
                 print("Either you know the secret or got lucky!")
+                break
 
-                # users response to continue the game, resets local values
-                user_response = str(input(play_msg)).lower()
-
-                # conditional statement to compare user's response
-
-                if user_response == 'y':
-                    num_of_guesses = 0
-                elif user_response == 'n':
-                    play_again = -1
-                else:
-                    print("Please enter 'y' or 'no'")
             else:
                 print("Enter only integers")
 
         # displays whether the user was successful or failed to guess
 
-        if num_of_guesses < 11:
-            print(f"\nYou took {num_of_guesses} guesses.\n")
-            print(f"\nThe correct number was {random_num}")
-            print("You should be able to do better")
+        if num_of_guesses == 11:
+            print("\nYou took too many guesses.")
+            print(f"\nThe correct number was {random_num}!")
+            print("\nYou should be able to do better!")
 
         # users response on whether or not to continue playing the game.
 
-        keep_going = str(input("Play again? Enter 'y' or 'n': ")).lower()
+        keep_going = str(input("\nPlay again? Enter 'y' or 'n': ")).lower()
 
         # conditional statements to restart the while loops and guess count
 
         if keep_going == 'y':
-            num_of_guesses = 0
+            num_of_guesses = 1
             play_again = 0
         elif keep_going == 'n':
             play_again = -1
+
+# declare get random function
+
+def get_random_num():
+    '''
+    This function gets a random number
+    
+    action: generates a random number
+    input: none
+    output: outputs a random number
+    return: returns the number that was generated
+    
+    '''
+    return random.randint(1,1000)
 
 # invokes the main function
 main()
