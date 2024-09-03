@@ -53,6 +53,10 @@ def main():
             
             # receives user's guess input
             users_guess_num = int(input(guess_msg))
+            
+            if users_guess_num < 0:
+                print("Enter only positive integers")
+                continue
 
             # conditional statements to determine the user's guess
 
