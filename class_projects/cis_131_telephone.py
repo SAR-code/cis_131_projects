@@ -18,8 +18,8 @@ def main():
     
     # declare local variables to collect user input 
 
-    user_message = ('Please enter a seven digit number without dashes,',
-                    '1s or 0s. ')
+    user_message = ('Please enter a seven digit number without dashes, '
+                    '1s, or 0s. ')
     good_input = False
     
     # while-loop to encase user makes the wrong input
@@ -57,6 +57,29 @@ def get_telephone_words(phone_num):
     
     return: none
     '''
+    # declare a list/matrix of numbers and letters
+    
+    my_letters = [
+                    [],
+                    [],
+                    ['A','B','C'],
+                    ['D','E','F'],
+                    ['G','H','I'],
+                    ['J','K','L'],
+                    ['M','N','O'],
+                    ['P','R','S'],
+                    ['T','U','V'],
+                    ['W','X','Y']
+                    ]   
+    
+    # declare variable to hold the list of new words
+    
+    words_formed = []
+    
+    # declare variables and for-loops to iterate through the lists
+    
+    phone_num = int(phone_num)
+    
     output = phone_num
     
     
