@@ -53,6 +53,7 @@ def main():
             # takes the mapped list and prints each word individually
             for word in word_list:
                 print(word)
+                
             
             # displays the total number of combinations for the number entered
             
