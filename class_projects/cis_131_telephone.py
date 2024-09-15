@@ -33,11 +33,11 @@ def main():
                     '1s, or 0s. ')
     good_input = False
     
-    # while-loop to encase user makes the wrong input
+    # while-loop in case user makes the wrong input
     
     while good_input == False:
         
-        # variable stores user input
+        # variable stores and checks user input
         get_phone_number = str(input(user_message))
         
         # conditional statement to ensure the correct length
@@ -50,8 +50,11 @@ def main():
             # invokes the get_telephone_words function
             word_list = get_telephone_words(get_phone_number)
             
+            # takes the mapped list and prints each word individually
             for word in word_list:
                 print(word)
+            
+            # displays the total number of combinations for the number entered
             
             print(f"\nA total of {len(word_list)} words in this combination")
             good_input = True
