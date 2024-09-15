@@ -10,15 +10,35 @@ date: 12SEP24
 # declare main function to hold the scripts operations
 
 def main():
-    print("Hello from main")
+    '''
+    Runs the entire application by receiving the user's input as a phone
+    number without using 0's or 1's. The script will prompt the user to
+    ensure the correct amount of digits have been entered
+    '''
     
-    # declare local variables to collect user input
-    test_input = '2345678999'
+    # declare local variables to collect user input 
+
+    user_message = ('Please enter a seven digit number without dashes,',
+                    '1s or 0s. ')
+    good_input = False
     
-    # invokes the get_telephone_words function
-    get_telephone_words(test_input)
-
-
+    # while-loop to encase user makes the wrong input
+    
+    while good_input == False:
+        
+        # variable stores user input
+        get_phone_number = str(input(user_message))
+        
+        # conditional statement to ensure the correct length
+        if len(get_phone_number) != 7:
+            
+            #prompts the user to check the number of digits entered
+            print('Enter seven digits')
+            
+        else:
+            # invokes the get_telephone_words function
+            get_telephone_words(get_phone_number)
+            good_input = True
 
 
 # declare function to generate word combination
