@@ -71,7 +71,7 @@ def get_telephone_words(phone_num: str):
     
     output: Outputs every word combination.
     
-    return: None
+    return: Returns the mapped list of the possible word combinations
     '''
     # declare a list/matrix of numbers and letters
     
@@ -99,13 +99,31 @@ def get_telephone_words(phone_num: str):
     # returns the possible combination of words
     
     return words_formed
-    
-    # declare variables and for-loops to iterate through the lists
 
-    
+# declare function to gather the list of all possible word combinations
+
 def combinations_formed(num_list, map, idx, current, words_formed):
+    '''
+    This function receives the arguments for the number list, mapping,
+    the index, current number/letter and words formed then calls itself
+    again for the next iteration.
     
+    action: Takes in the arguements to create a word and then add it appending
+            it to a list. This list contains all of the possible combinations 
+            that can be created.
+            
+    input: The num_list which is the phone number that was input, a mapping
+            function, the index position, current number/letter, and the 
+            resulting formed word.
+            
+    output: Generates the list of all possible word combinations based off the 
+            phone number that was received.
+            
+    return: None
+    
+    '''
     # maps the digits and letters based on input
+    
     if idx == len(num_list):
         words_formed.append(current)
         return
@@ -113,9 +131,14 @@ def combinations_formed(num_list, map, idx, current, words_formed):
     # retrieves the letters mapped to the digits
     letters = map[int(num_list[idx])]
     
+    # Adds all of the letters to the formed word and calls on itself again
+    # for the next iteration.
+    
     for l in letters:
         combinations_formed(num_list, map, idx + 1, current + l, words_formed)
 
 # invokes main function
 
-main()
+if __name__ == "__main__":
+    main()
+
