@@ -109,18 +109,18 @@ def play_game():
             # first roll results win or lose conditions
 
             if roll_result in (7,11):
-                return 'You win!'
+                return 'You win!', 1
             elif roll_result in (2, 3, 12):
-                return 'You lose!'
+                return 'You lose!', 1
             else:
                 my_point = roll_result
         else:
             # subsequent roll condtions if previous conditions were not met
 
             if roll_result == my_point:
-                return 'You win!'
+                return 'You win!', roll_counter
             elif roll_result == 7:
-                return 'You lose!'
+                return 'You lose!', roll_counter
 
 # declare variable to get craps statistics
 def get_craps_game_stats(num_of_games :int):
@@ -142,11 +142,13 @@ def get_craps_game_stats(num_of_games :int):
     total_games_played = 0
     total_win_percentage = 0
     total_lost_percentage = 0
+    
+    sample_rolls = [0] * 25
 
     # for loop to track win/lose conditions and stores them into dictionaries
 
     for num in range(num_of_games):
-        result = play_game()
+        result, roll_counter = play_game()
         total_games_played += 1
 
         # updates each of the dictionaries accordingly
@@ -159,6 +161,13 @@ def get_craps_game_stats(num_of_games :int):
             if total_games_played not in games_lost:
                 games_lost[total_games_played] = 0
             games_lost[total_games_played] += 1
+        
+        if roll_counter <= len(sample_rolls):
+            sample_rolls[roll_counter-1] += 1
+        else:
+            sample_rolls[-1] += 1
+
+
 
     # retrieves the sum of win/lose values from the dictionary
 
@@ -171,7 +180,7 @@ def get_craps_game_stats(num_of_games :int):
     
     # calculates the win/lose percentages  of each roll
 
-    print("Rolls\tGames Won\tGames Lost\tWin %\t\tLose %\t\tTotal %")
+    print("Rolls\t\t% Resolved on this roll\t\tCumulative % of games resolved")
     
     for game_roll in range(1, total_games_played + 1):
         winning_games = games_won.get(game_roll, 0)
@@ -181,10 +190,19 @@ def get_craps_game_stats(num_of_games :int):
         total_win_percentage += winning_games / games_won_sum * 100
         total_lost_percentage += losing_games / games_lost_sum * 100
 
-        print(f"{game_roll}\t{winning_games}\t\t{losing_games}",
-              f"\t\t{winning_games/total_games_played * 100:.2F}%",
-              f"\t\t{losing_games/total_games_played * 100:.2F}%",
-              f"\t\t{total_win_percentage:.2F}")
+        # print(f"{game_roll}\t{winning_games}\t\t{losing_games}",
+        #       f"\t\t{winning_games/total_games_played * 100:.2F}%",
+        #       f"\t\t{losing_games/total_games_played * 100:.2F}%",
+        #       f"\t\t{total_win_percentage:.2F}")
+    
+    for index in range(len(sample_rolls)):
+        resolved_per = sample_rolls[index] * 100 / num_of_games
+        resolved_sum = 100 * sum(sample_rolls[0:index]) / num_of_games
+        if index != len(sample_rolls) -1:
+            print(f"{index + 1}\t\t{resolved_per:.2F}\t\t\t\t{resolved_sum:.2F}")
+        else:
+            print(f"{index + 1}\t\t{resolved_per:.2F}\t\t\t\t{100 * sum(sample_rolls) / num_of_games:.2F}")
+        
 
 
 # declare function to display the conclusion of the game
