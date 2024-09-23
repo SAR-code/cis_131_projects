@@ -129,19 +129,22 @@ def get_craps_game_stats(num_of_games :int):
     were played and displays the win/loss ratios and percentages of all games 
     that were played.
 
-    action:
-    input:
-    output:
-    return:
+    action: Runs the script to simulate the game of Craps and returns the 
+            percentages
+            
+    input: The number of games that are played
+            
+    output: Displays the games totals and percentages
+    
+    return: None
     '''
     # declare local variables to track game play and report end results
 
     games_won = {}      # win dictionary
     games_lost = {}     # loss dictionary
-
     total_games_played = 0
-    total_win_percentage = 0
-    total_lost_percentage = 0
+
+    # creating a list for the first 25 samples
     
     sample_rolls = [0] * 25
 
@@ -163,7 +166,7 @@ def get_craps_game_stats(num_of_games :int):
             games_lost[total_games_played] += 1
         
         if roll_counter <= len(sample_rolls):
-            sample_rolls[roll_counter-1] += 1
+            sample_rolls[roll_counter - 1] += 1
         else:
             sample_rolls[-1] += 1
 
@@ -182,27 +185,18 @@ def get_craps_game_stats(num_of_games :int):
 
     print("Rolls\t\t% Resolved on this roll\t\tCumulative % of games resolved")
     
-    for game_roll in range(1, total_games_played + 1):
-        winning_games = games_won.get(game_roll, 0)
-        losing_games = games_lost.get(game_roll, 0)
-
-        # The percentage calculation
-        total_win_percentage += winning_games / games_won_sum * 100
-        total_lost_percentage += losing_games / games_lost_sum * 100
-
-        # print(f"{game_roll}\t{winning_games}\t\t{losing_games}",
-        #       f"\t\t{winning_games/total_games_played * 100:.2F}%",
-        #       f"\t\t{losing_games/total_games_played * 100:.2F}%",
-        #       f"\t\t{total_win_percentage:.2F}")
+    # for loop to get stats from the sample of rolls
     
     for index in range(len(sample_rolls)):
         resolved_per = sample_rolls[index] * 100 / num_of_games
         resolved_sum = 100 * sum(sample_rolls[0:index]) / num_of_games
         if index != len(sample_rolls) -1:
-            print(f"{index + 1}\t\t{resolved_per:.2F}\t\t\t\t{resolved_sum:.2F}")
+            print(f"{index + 1}\t\t{resolved_per:.2F}",
+                  f"\t\t\t\t{resolved_sum:.2F}")
         else:
-            print(f"{index + 1}\t\t{resolved_per:.2F}\t\t\t\t{100 * sum(sample_rolls) / num_of_games:.2F}")
-        
+            print(f"{index + 1}\t\t{resolved_per:.2F}",
+                  f"\t\t\t\t{100 * sum(sample_rolls) / num_of_games:.2F}")
+
 
 
 # declare function to display the conclusion of the game
