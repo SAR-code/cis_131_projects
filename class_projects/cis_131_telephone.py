@@ -50,15 +50,25 @@ def main():
             # invokes the get_telephone_words function
             word_list = get_telephone_words(get_phone_number)
             
-            # takes the mapped list and prints each word individually
-            for word in word_list:
-                print(word)
-                
+            # the mapped list writes to a file and prints words individually
+            
+            telephone_file = open('telephone.txt', 'w')
+            
+            # takes the mapped list and writes each word into a text file
+            for item in word_list:
+                print(item)
+                telephone_file.write(item + '\n')
+            
+            # closes the txt file once the iteration is complete
+            telephone_file.close()
+            
             
             # displays the total number of combinations for the number entered
             
             print(f"\nA total of {len(word_list)} words in this combination")
             good_input = True
+    
+    
 
 
 # declare function to generate word combination
@@ -106,7 +116,7 @@ def get_telephone_words(phone_num: str):
 
 # declare function to gather the list of all possible word combinations
 
-def combinations_formed(num_list, map, idx, current, words_formed):
+def combinations_formed(num_list, map, index, current, words_formed):
     '''
     This function receives the arguments for the number list, mapping,
     the index, current number/letter and words formed then calls itself
@@ -128,21 +138,21 @@ def combinations_formed(num_list, map, idx, current, words_formed):
     '''
     # maps the digits and letters based on input
     
-    if idx == len(num_list):
+    if index == len(num_list):
         words_formed.append(current)
         return
     
     # retrieves the letters mapped to the digits
-    letters = map[int(num_list[idx])]
+    letters = map[int(num_list[index])]
     
     # Adds all of the letters to the formed word and calls on itself again
     # for the next iteration.
     
     for l in letters:
-        combinations_formed(num_list, map, idx + 1, current + l, words_formed)
+        combinations_formed(num_list, map, index + 1, current + l, words_formed)
+
 
 # invokes main function
 
-if __name__ == "__main__":
-    main()
+main()
 
