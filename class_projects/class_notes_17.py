@@ -1,6 +1,6 @@
 '''
 script: class_notes_17sep.py
-action: runs my class notes for the day
+action: runs my class notes for the week
 author: Dylan McCallum  
 date: 05SEP24
 
