@@ -27,7 +27,6 @@ def main():
     return: None
     
     '''
-    print("Hello From main")
     
     # declare variables for while loop and function operations
     
@@ -39,23 +38,29 @@ def main():
     
     grade = int(input("Enter a grade. (Enter -1 to quit): "))
     
-    # declare while loop to check the grades
+    # declare while loop to input grades
      
     while grade != -1:
         
         # exception handling to ensure the correct values are received
         try:
+            # checks to make sure valid grades are entered
+            
             if grade > 100 or grade < -1:
                 print("Please enter a proper grade")
                 grade = int(input("Enter a grade. (Enter -1 to quit): "))
                 continue
                 
             else:
+                # adds the valid grades into the list and continues the count
+                
                 grade_list.append(grade)
                 count += 1
                 grade = int(input("Enter a grade. (Enter -1 to quit): "))
             
         except ValueError:
+            # checks for improper values
+            
             print("please enter a proper grade")    
         
         else:
@@ -69,10 +74,13 @@ def main():
                 print(f'{"Grades":<10}', file = grades)
                 print(f'{border * 16}\n', file = grades)
                 
+                # loops the individual grades into the file
+                
                 for item in grade_list:
                     print(item, file = grades)
                 
                # outputs the class average
+               
                 print(f"\nThe class average is {class_room_avg:.2f}",
                           file = grades
                           )
@@ -116,6 +124,7 @@ def get_class_total(grades: list):
     class_avg = class_sum /len(grades)
     
     return class_avg
+
 # invokes main function
 
 main()
