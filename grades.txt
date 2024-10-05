@@ -2,9 +2,9 @@ Grades
 ****************
 
 100
-99
-87
+78
+89
 92
-85
+96
 
-The class average is 92.60
+The class average is 91.00
