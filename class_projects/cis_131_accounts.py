@@ -26,16 +26,19 @@ class Account:
         
         self._balance += amount     # returns the updated amount
     
+    # sets function as a getter/ read only property
     @property
     def get_balance(self):       
         # Utilize the method to return the private variable _balance
         return self._balance
     
+    # sets function as a getter/ read only property
     @property
     def get_name(self):
         # Utilize the method to return the private variable _name
         return self._name
 
+# declare main function to contain the scripts operations
 def main():
     '''Assigns an account to an individual and utilizes methods to 
        retrieve information
@@ -53,4 +56,5 @@ def main():
     # methods utilized to get the name and current balance
     print("The account of", account1.get_name, "is:", account1.get_balance)  
 
+# invokes main function
 main()
