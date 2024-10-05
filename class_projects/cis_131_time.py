@@ -83,5 +83,11 @@ def main():
     wake_up = Time(hour=7, minute=45, second=30)
     
     print(wake_up)
+    
+    wake_up.hour = 23
+    wake_up.minute = 10
+    wake_up.second = 34
+    
+    print(wake_up)
 
 main()
