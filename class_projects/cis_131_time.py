@@ -9,85 +9,75 @@ date: 05OCT24
 class Time: 
     """Class Time with read-write properties."""
     
-    def __init__(self, hour=0, minute=0, second=0):
+    def __init__(self, hour, minute, seconds):
         """Initialize each attribute"""
         
-        self._hour = hour       # 0-23
-        self._minute = minute   # 0-59
-        self._second = second   # 0-59
+        # converts the input received into seconds
+        self._total_secs = (hour * 3600 + minute * 60 + seconds)
     
     def __repr__(self):
         '''Return Time string for repr()'''
-        return (f'Time(hour={self.hour}, minute={self.minute}, ' +
-                f'second={self.second})')
+        return (f'Time({self.hour:02d}:{self.minute:02d}:{self.second:02d})')
         
     def __str__(self):
         '''Print Time in 12-hour format.'''
         
-        return (('12' if self._hour in (0,12) else str(self._hour % 12)) +
-                f':{self.minute:0>2}:{self._second:0>2}' +
-                ('AM' if self._hour < 12 else ' PM'))
+        return (('12' if self.hour in (0,12) else str(self.hour % 12)) +
+                f':{self.minute:0>2}:{self.second:0>2}' +
+                ('AM' if self.hour < 12 else ' PM') +
+                f' or {self._total_secs} seconds after midnight')
     
     @property
     def hour(self):
-        '''Return the hour'''
-        return self._hour
-    
-    @hour.setter
-    def hour(self, hour):
-        '''Set the hour'''
+        '''Return the hour after conversion'''
         
-        if not (0 <= hour < 24):
-            raise ValueError(f'Hour({hour}) must be 0-23')
-        
-        self._hour = hour 
+        return self._total_secs // 3600
     
     @property
     def minute(self):
-        '''Return the minute'''
-        return self._minute
-    
-    @minute.setter
-    def minute(self, minute):
-        '''Set the minute.'''
-        if not (0 <= minute < 60):
-            raise ValueError(f'Minute ({minute}) must be 0-59')
-        
-        self._minute = minute
-    
+        '''Return the minute after conversion'''
+        return (self._total_secs % 3600) // 60
+
     @property
     def second(self):
         '''Return the second'''
-        return self._second
+        return self._total_secs % 60
     
-    @second.setter
-    def second(self, second):
-        '''Set the record'''
-        if not (0 <= second < 60):
-            raise ValueError(f'Second ({second}) must be 0-59')
-        
-        self._second = second
+    @property
+    def total_seconds(self):
+        '''returns the total seconds after midnight'''
+        return self._total_secs
     
-    def set_time(self, hour=0, minute=0, second=0):
-        '''Set values of hour, minute, and second'''
-        
-        self._hour = hour
-        self._minute = minute
-        self._second = second
+    @total_seconds.setter
+    def total_seconds(self, input_secs):
+        '''Sets the total seconds'''
+        self._total_secs = input_secs
     
-    
-        
 
 def main():
+    '''
+    Runs the entire application by receiving the user's time inputs by hour,
+    minute, and second, or total seconds after midnight.
     
-    wake_up = Time(hour=7, minute=45, second=30)
+    action: Contains the assigned classes and runs the script
+    input: None
     
+    output: Displays the time by entering the hour, minute, seconds, or
+            by calling the attribute total_seconds and entering the time 
+            in seconds after midnight to display the time
+            
+    return: None
+    '''
+    
+    # Assign a class to a new variable
+    wake_up = Time(hour=23, minute=10, seconds=34)
+    
+    # display the converted time
     print(wake_up)
     
-    wake_up.hour = 23
-    wake_up.minute = 10
-    wake_up.second = 34
-    
+    # displays the converted time with total seconds
+    wake_up.total_seconds = 5000
     print(wake_up)
 
+# invokes main
 main()
