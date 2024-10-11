@@ -1,6 +1,6 @@
 '''
 script: cis_131_date_time.py
-action: 
+action: demonstrates the datetime module
 author: Dylan McCallum
 date: 09OCT24
 '''
