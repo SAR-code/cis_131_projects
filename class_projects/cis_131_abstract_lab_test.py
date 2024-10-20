@@ -24,8 +24,8 @@ senior_employee = SalariedEmployee('Tony', 'Stark', '789', 57345.89)
 
 # display each employee representation and earnings
 
-# print(junior_employee)
-# print(senior_employee)
+print(junior_employee)
+print(senior_employee)
 
 # iterate through the list of employees
 
