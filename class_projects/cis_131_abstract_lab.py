@@ -41,9 +41,9 @@ class Employee(ABC):
         raise NotImplementedError('input code missing')
     
     def __repr__(self):
-        return(f'\nFirst Name: {self.f_name}' 
-               f'\nLast Name: {self.l_name} '
-               f'\nSSN: {self.ssn}')
+        return(f'\nFirstname: {self.f_name}' 
+               f'\nLastname: {self.l_name} '
+               f'\nSSN: {self.ssn}' )
 
 # define concrete sub class of salaried employee
 
@@ -173,16 +173,16 @@ class HourlyEmployee(Employee):
 
 # Test Code
 
-employee_1 = HourlyEmployee('John', 'Wick', '11111', 168, 29.03)
-print(employee_1)
+# employee_1 = HourlyEmployee('John', 'Wick', '11111', 168, 29.03)
+# print(employee_1)
 
-employee_1.hours_worked = 72
-print(employee_1)
+# employee_1.hours_worked = 72
+# print(employee_1)
 
-employee_2 = SalariedEmployee('Koji', 'Shimazu', '41701', 1200.17 )
-print(employee_2)
+# employee_2 = SalariedEmployee('Koji', 'Shimazu', '41701', 1200.17 )
+# print(employee_2)
 
-employee_2.weekly_salary = 5000.23
-print(employee_2)
+# employee_2.weekly_salary = 5000.23
+# print(employee_2)
 
 
