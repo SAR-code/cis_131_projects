@@ -16,10 +16,11 @@ from datetime import date
 
 # define a main function to run the entire script
 def main():
-    print("Hello from main")
     
     #test code
+    test_employee = Employee('Cloud', 'Strife', 777, 'soldier@mail', '123-4567', '001', '002', 3000, {"2022","2", "27"})
     
+    print(test_employee.__repr__())
     
     # open a file that contains employee data
     
@@ -37,8 +38,8 @@ def main():
 class Person(ABC):
     '''Abstract class person'''
     
-    def __init__(self, f_name =str, l_name =str, 
-                 id_num =int, email_addr =str, phone_num =str):
+    def __init__(self, f_name, l_name, 
+                 id_num, email_addr, phone_num):
         '''Initialize each attribute'''
         
         self._f_name =      f_name
@@ -83,21 +84,31 @@ class Person(ABC):
 class Employee(Person):
     '''Concrete Employee class inheriting from Person class'''
     
-    def __init__(self, f_name =str, l_name =str, id_num =int,
-                 email_addr =str, phone_num =str, role =str,
-                 class_p =str, salary =float, h_date =object
+    def __init__(self, f_name, l_name, id_num,
+                 email_addr, phone_num, role,
+                 class_p, salary, h_date
                  ):
         
         '''Inherit from person and initialize each attribute'''
         
-        super.__init__(f_name, l_name, id_num,
-                       email_addr, phone_num, role,
-                       class_p, salary, h_date)
+        super().__init__(f_name, l_name, id_num,
+                       email_addr, phone_num
+                       )
         
         self._role = role
         self._class_p = class_p
         self._salary = salary
         self._h_date = h_date
+    
+    def __repr__(self):
+        '''Return the repr for Employee'''
+        
+        return(f'***Employee*** {super().__repr__()}'
+               f'\nRole: {self._role}'
+               f'\nClassification: {self._class_p}'
+               f'\nSalary: {self._salary}'
+               f'\nHire Date: {self._h_date}'
+               )
 
 # invoke main function
 main()
