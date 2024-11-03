@@ -18,7 +18,17 @@ from datetime import date
 def main():
     
     #test code
-    test_employee = Employee('Cloud', 'Strife', 777, 'soldier@mail', '123-4567', '001', '002', 3000, {"2022","2", "27"})
+    test_employee = Employee('Cloud', 'Strife', 777, 'soldier@mail', '5201234567', '001', '002', 3000, [2022, 2, 27]) 
+    
+    print(test_employee.__repr__())
+    
+    test_employee.f_name = 'Barret'
+    test_employee.role = '002'
+    
+    print(test_employee.role, '############')
+    
+    test_employee.phone_num = '6192218564'
+    
     
     print(test_employee.__repr__())
     
@@ -53,25 +63,61 @@ class Person(ABC):
         '''returns the first name'''
         return self._f_name
     
+    @f_name.setter
+    def f_name(self, f_name):
+        '''sets the first name'''
+        
+        self._f_name = f_name
+
+
     @property
     def l_name(self):
         '''returns the last name'''
         return self._l_name
+    
+    @l_name.setter
+    def l_name(self, l_name):
+        '''sets the last name'''
+        
+        self._l_name = l_name
+    
     
     @property
     def id_num(self):
         '''returns the Id number'''
         return self._id_num
     
+    
     @property
     def email_addr(self):
         '''returns the email address'''
         return self._email_addr
     
+    @email_addr.setter
+    def email_addr(self, email_addr):
+        '''sets email address'''
+        
+        self._email_addr = email_addr
+        
+    
     @property
     def phone_num(self):
         '''returns the phone number'''
+        part_one = self._phone_num[0:3]
+        part_two = self._phone_num[3:6]
+        part_three = self._phone_num[6:]
+        
+        self._phone_num = part_one + '-' + part_two + '-' + part_three
+        
         return self._phone_num
+    
+    @phone_num.setter
+    def phone_num(self, phone_num):
+        
+        if len(phone_num) != 10:
+            raise Exception("Enter a proper phone number")
+        
+        self._phone_num = phone_num
     
     def __repr__(self):
         return (f'\nFirstName: {self.f_name}'
@@ -86,7 +132,7 @@ class Employee(Person):
     
     def __init__(self, f_name, l_name, id_num,
                  email_addr, phone_num, role,
-                 class_p, salary, h_date
+                 class_p, salary, h_date 
                  ):
         
         '''Inherit from person and initialize each attribute'''
@@ -95,10 +141,41 @@ class Employee(Person):
                        email_addr, phone_num
                        )
         
-        self._role = role
+        # conditions for rol_dictionary and assigning the appropriate code
+        
+        role_dictionary = {'001':'Staff', '002': 'Faculty'}
+        if role not in role_dictionary:
+            raise Exception("role not found, enter 001 or 002")
+        else:
+            self._role = role_dictionary[role]
+        
         self._class_p = class_p
         self._salary = salary
-        self._h_date = h_date
+        
+        self._h_date = date(h_date[0], h_date[1], h_date[2])
+    
+    @property
+    def h_date(self):
+        '''returns the hire date'''
+        return self._h_date
+    
+    
+    @property
+    def role(self):
+        '''returns the person's role'''
+        return self._role
+    
+    @role.setter
+    def role(self, role):
+        '''Sets the person's role'''
+        
+        if role == "001":
+            self._role = "Staff"
+        elif role == "002":
+            self._role = "Faculty"
+        else:
+            raise Exception("Enter 001 or 002")
+    
     
     def __repr__(self):
         '''Return the repr for Employee'''
