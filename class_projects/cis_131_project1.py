@@ -14,33 +14,69 @@ date: 31OCT24
 from abc import ABC
 from datetime import date
 
+
 # define a main function to run the entire script
 def main():
     
     #test code
-    test_employee = Employee('Cloud', 'Strife', 777, 'soldier@mail', '5201234567', '001', '002', 3000, [2022, 2, 27]) 
+    # test_employee = Employee('Cloud', 'Strife', 777, 'soldier@mail', '520-123-4567', '001', '001', 3000, [2022, 2, 27]) 
     
-    print(test_employee.__repr__())
-    
-    test_employee.f_name = 'Barret'
-    test_employee.role = '002'
-    
-    print(test_employee.role, '############')
-    
-    test_employee.phone_num = '6192218564'
-    
-    
-    print(test_employee.__repr__())
-    
-    # open a file that contains employee data
+    # print(test_employee.__repr__())
+    # test_employee.f_name = 'Barret'
+    # test_employee.l_name = 'Wallace'
+    # test_employee.email_addr = 'avalanche@mail.com'
+    # test_employee.role = '002'
+    # test_employee.class_p = '001'
+    # test_employee.phone_num = '619-221-8564'
+    # test_employee.salary = 12000
+    # print(f'\n{test_employee.__repr__()}')
     
     # create a list of employee objects
+    employee_list = []
+    
+    # declare a function to get the employees
+    
+    def get_employees():
+        
+        # employee_files = open('employees.txt', 'r')
+        
+        # print(employee_files.read())
+        
+        with open('employees.txt', mode='r') as employees:
+            
+            organize_list = []
+            
+            for line in employees:
+                organize_list.append(line.strip().split())
+            
+            del organize_list[0]
+            
+            for person in organize_list:
+        
+                        
+                entered_employee = Employee(person[1], person[0], person[2],
+                                            person[3], person[4], person[6],
+                                            person[7], float(person[8]), [1,12,23]
+                                            )
+                
+                print(entered_employee)
+                print(person[5])
+                
+                
+            
+                
+        
+        
+            
     
     # display two reports of employee data
     
         # Full Emploment Record
         
         # Contact Information
+        
+    # test functions, make sure you delete
+    get_employees()
         
 
 # define abstract person class
@@ -55,7 +91,9 @@ class Person(ABC):
         self._f_name =      f_name
         self._l_name =      l_name
         self._id_num =      id_num
+        
         self._email_addr =  email_addr
+        
         self._phone_num =   phone_num
     
     @property
@@ -97,25 +135,25 @@ class Person(ABC):
     def email_addr(self, email_addr):
         '''sets email address'''
         
-        self._email_addr = email_addr
+        self._email_addr =  email_addr
         
     
     @property
     def phone_num(self):
         '''returns the phone number'''
-        part_one = self._phone_num[0:3]
-        part_two = self._phone_num[3:6]
-        part_three = self._phone_num[6:]
+        # part_one = self._phone_num[0:3]
+        # part_two = self._phone_num[3:6]
+        # part_three = self._phone_num[6:]
         
-        self._phone_num = part_one + '-' + part_two + '-' + part_three
+        # self._phone_num = part_one + '-' + part_two + '-' + part_three
         
         return self._phone_num
     
     @phone_num.setter
     def phone_num(self, phone_num):
         
-        if len(phone_num) != 10:
-            raise Exception("Enter a proper phone number")
+        if len(phone_num) != 12:
+            raise Exception("Enter a proper phone number with dashes")
         
         self._phone_num = phone_num
     
@@ -130,6 +168,10 @@ class Person(ABC):
 class Employee(Person):
     '''Concrete Employee class inheriting from Person class'''
     
+    # declare class variables
+    role_dictionary = {'001':'Staff', '002': 'Faculty'}
+    classification_dictionary = {'001': 'Full', '002': 'Part'}
+    
     def __init__(self, f_name, l_name, id_num,
                  email_addr, phone_num, role,
                  class_p, salary, h_date 
@@ -141,19 +183,41 @@ class Employee(Person):
                        email_addr, phone_num
                        )
         
-        # conditions for rol_dictionary and assigning the appropriate code
+        # conditions for role_dictionary and assigning valid code
+        self._role = self.get_keys_role(role)
         
-        role_dictionary = {'001':'Staff', '002': 'Faculty'}
-        if role not in role_dictionary:
-            raise Exception("role not found, enter 001 or 002")
-        else:
-            self._role = role_dictionary[role]
+        # conditions for classification_dictionary and assigning valid code
+        self._class_p = self.get_keys_class(class_p)
         
-        self._class_p = class_p
-        self._salary = salary
-        
+        # indexing the list into different arguments
         self._h_date = date(h_date[0], h_date[1], h_date[2])
+        
+        # validating only positive numbers are entered
+        
+        if salary < 0:
+            raise Exception("salary cannot be negative")
+        else: 
+            self._salary = float(salary)
     
+    @staticmethod
+    def get_keys_role(role):
+        
+        for key, value in Employee.role_dictionary.items():
+            if value == role:
+                return key
+        
+        return role
+    
+    @staticmethod
+    def get_keys_class(class_p):
+        
+        for key, value in Employee.classification_dictionary.items():
+            if value == class_p:
+                return key
+
+        return class_p
+    
+        
     @property
     def h_date(self):
         '''returns the hire date'''
@@ -169,13 +233,41 @@ class Employee(Person):
     def role(self, role):
         '''Sets the person's role'''
         
-        if role == "001":
-            self._role = "Staff"
-        elif role == "002":
-            self._role = "Faculty"
+        if role in Employee.role_dictionary.values():
+            self._role = role
         else:
-            raise Exception("Enter 001 or 002")
+            raise Exception("Incorrect role")
     
+    
+    @property
+    def class_p(self):
+        '''returns the person's classification'''
+        return self._class_p
+    
+    @class_p.setter
+    def class_p(self, class_p):
+        '''Sets the person's classification'''
+        
+        if class_p not in Employee.classification_dictionary:
+            raise Exception('Classification not found')
+        else:
+            self._class_p = Employee.classification_dictionary[class_p]
+    
+    
+    @property
+    def salary(self):
+        '''Returns the salary'''
+        return self._salary
+    
+    @salary.setter
+    def salary(self, salary):
+        '''Sets the salary'''
+        
+        if salary < 0:
+            raise Exception("New salary cannot be negative")
+        else: 
+            self._salary = float(salary)
+        
     
     def __repr__(self):
         '''Return the repr for Employee'''
@@ -183,7 +275,7 @@ class Employee(Person):
         return(f'***Employee*** {super().__repr__()}'
                f'\nRole: {self._role}'
                f'\nClassification: {self._class_p}'
-               f'\nSalary: {self._salary}'
+               f'\nSalary: {self._salary:.2f}'
                f'\nHire Date: {self._h_date}'
                )
 
