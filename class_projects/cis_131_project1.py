@@ -53,14 +53,15 @@ def main():
             
             for person in organize_list:
         
-                        
+                split_five = str(person[5]).split('/')
+                
                 entered_employee = Employee(person[1], person[0], person[2],
                                             person[3], person[4], person[6],
-                                            person[7], float(person[8]), [1,12,23]
+                                            person[7], float(person[8]), split_five
                                             )
                 
                 print(entered_employee)
-                print(person[5])
+                
                 
                 
             
@@ -190,7 +191,7 @@ class Employee(Person):
         self._class_p = self.get_keys_class(class_p)
         
         # indexing the list into different arguments
-        self._h_date = date(h_date[0], h_date[1], h_date[2])
+        self._h_date = date(int(h_date[2]), int(h_date[0]), int(h_date[1]))
         
         # validating only positive numbers are entered
         
