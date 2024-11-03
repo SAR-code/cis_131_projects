@@ -18,18 +18,6 @@ from datetime import date
 # define a main function to run the entire script
 def main():
     
-    #test code
-    # test_employee = Employee('Cloud', 'Strife', 777, 'soldier@mail', '520-123-4567', '001', '001', 3000, [2022, 2, 27]) 
-    
-    # print(test_employee.__repr__())
-    # test_employee.f_name = 'Barret'
-    # test_employee.l_name = 'Wallace'
-    # test_employee.email_addr = 'avalanche@mail.com'
-    # test_employee.role = '002'
-    # test_employee.class_p = '001'
-    # test_employee.phone_num = '619-221-8564'
-    # test_employee.salary = 12000
-    # print(f'\n{test_employee.__repr__()}')
     
     # create a list of employee objects
     employee_list = []
@@ -38,18 +26,15 @@ def main():
     
     def get_employees():
         
-        # employee_files = open('employees.txt', 'r')
-        
-        # print(employee_files.read())
         
         with open('employees.txt', mode='r') as employees:
             
+            next(employees)
             organize_list = []
             
             for line in employees:
                 organize_list.append(line.strip().split())
             
-            del organize_list[0]
             
             for person in organize_list:
         
@@ -57,27 +42,56 @@ def main():
                 
                 entered_employee = Employee(person[1], person[0], person[2],
                                             person[3], person[4], person[6],
-                                            person[7], float(person[8]), split_five
+                                            person[7], float(person[8]), 
+                                            split_five
                                             )
                 
-                print(entered_employee)
+                employee_list.append(entered_employee)
                 
-                
-                
-            
-                
-        
-        
-            
+                print(f"Added employee {entered_employee.f_name}"
+                      f"{entered_employee.l_name}"
+                      )
     
-    # display two reports of employee data
+    # declare function to create menu
     
-        # Full Emploment Record
+    def create_menu():
         
-        # Contact Information
+        while True:
+            print("\nPlease select an option below")
+            print("1. Quit")
+            print("2. Display Employee Employment Information")
+            print("3. Display Employee Contact Information")
+            
+            selection = input("> ")
+            
+            if selection == '1':
+                print("Thank you using the system.")
+                print("Now exiting the program...")
+                break
+            
+            elif selection == '2':
+                displayEmployeeEmploymentInformation()
+            elif selection == '3':
+                displayEmployeeContactInformation()
+            else:
+                print(f"I am sorry, {selection} is not an option.")
+
+
+    # display two functions/reports of employee data 
+    
+    # declare function for employment information
+    
+    def displayEmployeeEmploymentInformation():
+        pass
+    
+    # Contact Information
+    def displayEmployeeContactInformation()
+    pass
+    
         
     # test functions, make sure you delete
     get_employees()
+    print(employee_list)
         
 
 # define abstract person class
