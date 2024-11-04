@@ -17,7 +17,19 @@ from datetime import date
 
 # define a main function to run the entire script
 def main():
-    
+    '''Runs the entire script by reading the input file, processing its
+        its contents, then displaying the file in one of two different outputs
+        depending on what the user wants to see
+        
+        action: Reads information from the text file and creates sub-menus to 
+                display specific formats of the file
+                
+        input: reads a given txt file
+        
+        output: returns two different displays after processing the txt file
+        
+        return: none
+    '''
     
     # create a list of employee objects
     employee_list = []
@@ -25,7 +37,20 @@ def main():
     # declare a function to get the employees
     
     def get_employees():
+        '''
+        This functions processess the contents in a txt.file and assigns each
+        each field as an input to the Employee class. After each employee is 
+        created, they get appended to a list containing employee objects
         
+        action: reads the txt file and structures the information in order
+                to be used in the Employee class
+                
+        input: none
+        
+        output: a newly formed list of employees based off the txt file
+        
+        return: none
+        '''
         # using "with open" so the file closes on it's own
         
         with open('employees.txt', mode='r') as employees:
@@ -72,8 +97,24 @@ def main():
     # declare function to create menu
     
     def create_menu():
+        '''
+        This function creates a menu for the user to interact with the newly
+        formatted txt files to display either employment information or 
+        contact information
+        
+        action: displays the correct file output based on the user input by
+                invoking the appropriate functions
+        
+        input: none
+        output: different information displays
+        return: none
+        '''
+        # declare a while loop to track menu items
         
         while True:
+            
+            # displays the menu options
+            
             print("\nPlease select an option below")
             print("1. Quit")
             print("2. Display Employee Employment Information")
@@ -81,16 +122,23 @@ def main():
             
             selection = input("> ")
             
+            # conditional statements based on the user input
             if selection == '1':
                 print("Thank you using the system.")
                 print("Now exiting the program...")
                 break
             
             elif selection == '2':
+                
+                # displays employment information function
                 displayEmployeeEmploymentInformation()
             elif selection == '3':
+                
+                # displays contact information
                 displayEmployeeContactInformation()
             else:
+                
+                # if invalid entry has been made
                 print(f"I am sorry, {selection} is not an option.")
 
 
@@ -99,6 +147,22 @@ def main():
     # declare function for employment information
     
     def displayEmployeeEmploymentInformation():
+        '''
+        The function organizes and displays the employee employment
+        information
+        
+        action: takes the list of employees and outputs the information
+                related to employment
+                
+        input: none
+        
+        output: displays each employee's employment information
+        
+        return: none
+        
+        '''
+        
+        # displays the title and header
         
         title = "Employee Employment Information\n"
         print(title.center(150))
@@ -107,6 +171,8 @@ def main():
               f'{"Classification" : <25} {"Role" : <15}'
               f'{"Salary"}'
               )
+        
+        # iterates through the list of employees and displays the desired data
         
         for employee in employee_list:
             print(f"{employee.l_name : <15} {employee.f_name : <15}" 
@@ -118,7 +184,24 @@ def main():
         
     
     # Contact Information
+    
     def displayEmployeeContactInformation():
+        '''
+        The function organizes and displays the employee contact
+        information
+        
+        action: takes the list of employees and outputs the information
+                related to contacts
+                
+        input: none
+        
+        output: displays each employee's contact information
+        
+        return: none
+        
+        '''
+        
+        # displays the title and header
         
         title = "Employee Contact Information\n"
         print(title.center(80))
@@ -126,6 +209,8 @@ def main():
         print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <15}'
               f'{"Email" : <35} {"Phone"}'
               )
+        
+        # iterates through the list of employees and displays the desired data
         
         for employee in employee_list:
             print(f"{employee.l_name : <15} {employee.f_name : <15} {employee.id_num : <15}"
@@ -208,6 +293,7 @@ class Person(ABC):
     
     @phone_num.setter
     def phone_num(self, phone_num):
+        '''sets the phone number'''
         
         if len(phone_num) != 12:
             raise Exception("Enter a proper phone number with dashes")
@@ -235,6 +321,8 @@ class Person(ABC):
                 f'\nPhone Number: {self.phone_num}'
                 )
 
+# define concrete person class 
+
 class Employee(Person):
     '''Concrete Employee class inheriting from Person class'''
     
@@ -253,10 +341,10 @@ class Employee(Person):
                        email_addr, phone_num
                        )
         
-        # conditions for role_dictionary and assigning valid code
+        # checks and compares keys with the roles dictionary
         self._role = self.get_keys_role(role)
         
-        # conditions for classification_dictionary and assigning valid code
+        # checks and compares keys with the classifications dictionary
         self._class_p = self.get_keys_class(class_p)
         
         # indexing the list into different arguments
@@ -271,7 +359,7 @@ class Employee(Person):
     
     @staticmethod
     def get_keys_role(role):
-        
+        '''compares the role input with key/value pair in the dictionary'''
         for key, value in Employee.role_dictionary.items():
             if value == role:
                 return key
@@ -280,7 +368,7 @@ class Employee(Person):
     
     @staticmethod
     def get_keys_class(class_p):
-        
+        '''compares classification input with key/value pair in the dictionary'''
         for key, value in Employee.classification_dictionary.items():
             if value == class_p:
                 return key
@@ -303,6 +391,7 @@ class Employee(Person):
     def role(self, role):
         '''Sets the person's role'''
         
+        # checks the role entered
         if role in Employee.role_dictionary.values():
             self._role = role
         else:
@@ -318,6 +407,7 @@ class Employee(Person):
     def class_p(self, class_p):
         '''Sets the person's classification'''
         
+        # checks the classification entered
         if class_p not in Employee.classification_dictionary:
             raise Exception('Classification not found')
         else:
