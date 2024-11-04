@@ -1,5 +1,5 @@
 '''
-script: cis_131_project1.py
+script: project1Employess.py
 
 action: Reads employee and student data from a file
         then stores data in objects and data stuctures
@@ -51,6 +51,7 @@ def main():
         
         return: none
         '''
+        
         # using "with open" so the file closes on it's own
         
         with open('employees.txt', mode='r') as employees:
