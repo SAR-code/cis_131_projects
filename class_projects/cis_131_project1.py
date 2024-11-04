@@ -82,16 +82,33 @@ def main():
     # declare function for employment information
     
     def displayEmployeeEmploymentInformation():
-        pass
+        
+        print("\nEmployee Employment Information")
+        print("LastName FirstName ID Email Phone HireDate Classification Role Salary")
+        
+        for employee in employee_list:
+            print(employee)
+        
     
     # Contact Information
-    def displayEmployeeContactInformation()
-    pass
+    def displayEmployeeContactInformation():
+        
+        title = "Employee Contact Information\n"
+        print(title.center(80))
+        
+        print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <15}'
+              f'{"Email" : <35} {"Phone" : <15}'
+              )
+        
+        for employee in employee_list:
+            print(f"{employee.l_name : <15} {employee.f_name : <15} {employee.id_num : <15}"
+                  f"{employee.email_addr : <35} {employee.phone_num : <15}"
+                  )
     
         
     # test functions, make sure you delete
     get_employees()
-    print(employee_list)
+    create_menu()
         
 
 # define abstract person class
@@ -287,7 +304,7 @@ class Employee(Person):
     def __repr__(self):
         '''Return the repr for Employee'''
         
-        return(f'***Employee*** {super().__repr__()}'
+        return(f'{super().__repr__()}'
                f'\nRole: {self._role}'
                f'\nClassification: {self._class_p}'
                f'\nSalary: {self._salary:.2f}'
