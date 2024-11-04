@@ -38,12 +38,12 @@ def main():
             
             for person in organize_list:
         
-                split_five = str(person[5]).split('/')
+                person[5] = str(person[5]).split('/')
                 
                 entered_employee = Employee(person[1], person[0], person[2],
                                             person[3], person[4], person[6],
                                             person[7], float(person[8]), 
-                                            split_five
+                                            person[5]
                                             )
                 
                 employee_list.append(entered_employee)
@@ -83,11 +83,21 @@ def main():
     
     def displayEmployeeEmploymentInformation():
         
-        print("\nEmployee Employment Information")
-        print("LastName FirstName ID Email Phone HireDate Classification Role Salary")
+        title = "Employee Employment Information\n"
+        print(title.center(150))
+        print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <15}'
+              f'{"Email" : <34} {"Phone" : <15} {"HireDate": <15}'
+              f'{"Classification" : <25} {"Role" : <15}'
+              f'{"Salary"}'
+              )
         
         for employee in employee_list:
-            print(employee)
+            print(f"{employee.l_name : <15} {employee.f_name : <15}" 
+                  f"{employee.id_num : <15} {employee.email_addr : <35}"
+                  f"{employee.phone_num : <15} {str(employee.h_date) : <15}"
+                  f"{employee.class_p : <25} {employee.role : <15}"
+                  f"{employee.salary:.2f}"
+                  )
         
     
     # Contact Information
@@ -97,12 +107,12 @@ def main():
         print(title.center(80))
         
         print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <15}'
-              f'{"Email" : <35} {"Phone" : <15}'
+              f'{"Email" : <35} {"Phone"}'
               )
         
         for employee in employee_list:
             print(f"{employee.l_name : <15} {employee.f_name : <15} {employee.id_num : <15}"
-                  f"{employee.email_addr : <35} {employee.phone_num : <15}"
+                  f"{employee.email_addr : <35} {employee.phone_num}"
                   )
     
         
