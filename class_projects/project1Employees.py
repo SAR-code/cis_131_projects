@@ -40,17 +40,23 @@ def main():
         
                 person[5] = str(person[5]).split('/')
                 
-                entered_employee = Employee(person[1], person[0], person[2],
-                                            person[3], person[4], person[6],
-                                            person[7], float(person[8]), 
-                                            person[5]
-                                            )
+                if ((person[6] == Employee.get_keys_role(person[6])) 
+                    and person[7] == Employee.get_keys_class(person[7])
+                    ):
                 
-                employee_list.append(entered_employee)
-                
-                print(f"Added employee {entered_employee.f_name}"
-                      f"{entered_employee.l_name}"
-                      )
+                        entered_employee = Employee(person[1], person[0], 
+                                                    person[2], person[3], 
+                                                    person[4], person[6],
+                                                    person[7], 
+                                                    float(person[8]),
+                                                     person[5])
+                                                     
+                        employee_list.append(entered_employee)
+                        
+                        print(f"Added employee {entered_employee.f_name}"
+                            f"{entered_employee.l_name}"
+                            )
+
     
     # declare function to create menu
     
@@ -116,9 +122,11 @@ def main():
                   )
     
         
-    # test functions, make sure you delete
+    # Invoke get employees and menu functions
+    
     get_employees()
     create_menu()
+
         
 
 # define abstract person class
