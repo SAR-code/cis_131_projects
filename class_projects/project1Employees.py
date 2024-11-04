@@ -121,26 +121,30 @@ def main():
             print("2. Display Employee Employment Information")
             print("3. Display Employee Contact Information")
             
-            selection = input("> ")
+            try:
+                selection = input("> ")
             
-            # conditional statements based on the user input
-            if selection == '1':
-                print("Thank you using the system.")
-                print("Now exiting the program...")
-                break
+                # conditional statements based on the user input
+                if selection == '1':
+                    print("Thank you using the system.")
+                    print("Now exiting the program...")
+                    break
             
-            elif selection == '2':
+                elif selection == '2':
                 
-                # displays employment information function
-                displayEmployeeEmploymentInformation()
-            elif selection == '3':
+                    # displays employment information function
+                    displayEmployeeEmploymentInformation()
+                elif selection == '3':
                 
-                # displays contact information
-                displayEmployeeContactInformation()
-            else:
+                     # displays contact information
+                    displayEmployeeContactInformation()
+                else:
                 
-                # if invalid entry has been made
-                print(f"I am sorry, {selection} is not an option.")
+                    # if invalid entry has been made
+                    print(f"I am sorry, {selection} is not an option.")
+            except ValueError:
+                print("Incorrect value entered")
+                
 
 
     # display two functions/reports of employee data 
@@ -238,7 +242,12 @@ class Person(ABC):
         
         self._f_name =      f_name
         self._l_name =      l_name
-        self._id_num =      id_num
+        
+        if len(id_num) != 4:
+            raise Exception("Id needs to be 4 digits")
+        else:
+            self._id_num =      id_num
+        
         
         self._email_addr =  email_addr
         
@@ -298,6 +307,7 @@ class Person(ABC):
         
         if len(phone_num) != 12:
             raise Exception("Enter a proper phone number with dashes")
+        
         
         self._phone_num = phone_num
     
@@ -453,3 +463,4 @@ class Employee(Person):
 
 # invoke main function
 main()
+
