@@ -26,35 +26,46 @@ def main():
     
     def get_employees():
         
+        # using "with open" so the file closes on it's own
         
         with open('employees.txt', mode='r') as employees:
             
+            # skips to the next line
             next(employees)
+            
+            # utilizing list as a placeholder
             organize_list = []
+            
+            # sectioning out each individual for a clean entry
             
             for line in employees:
                 organize_list.append(line.strip().split())
             
-            
+            # loops through the list of clean employees
             for person in organize_list:
-        
+                
+                # strips the slashes from the date for easier entry
                 person[5] = str(person[5]).split('/')
+                
+                # validates the keys to ensure they are a match
                 
                 if ((person[6] == Employee.get_keys_role(person[6])) 
                     and person[7] == Employee.get_keys_class(person[7])
                     ):
-                
+                        # inputs the entries into the respective fields
                         entered_employee = Employee(person[1], person[0], 
                                                     person[2], person[3], 
                                                     person[4], person[6],
                                                     person[7], 
                                                     float(person[8]),
                                                      person[5])
-                                                     
+                        
+                        # appends the newly formed list of objects to the declared list
                         employee_list.append(entered_employee)
                         
+                        # displays each employee added
                         print(f"Added employee {entered_employee.f_name}"
-                            f"{entered_employee.l_name}"
+                            f" {entered_employee.l_name}"
                             )
 
     
@@ -127,6 +138,7 @@ def main():
     get_employees()
     create_menu()
 
+
         
 
 # define abstract person class
@@ -191,11 +203,6 @@ class Person(ABC):
     @property
     def phone_num(self):
         '''returns the phone number'''
-        # part_one = self._phone_num[0:3]
-        # part_two = self._phone_num[3:6]
-        # part_three = self._phone_num[6:]
-        
-        # self._phone_num = part_one + '-' + part_two + '-' + part_three
         
         return self._phone_num
     
@@ -208,7 +215,20 @@ class Person(ABC):
         self._phone_num = phone_num
     
     def __repr__(self):
+        '''Return person string for repr()'''
+        
         return (f'\nFirstName: {self.f_name}'
+                f'\nLastName: {self.l_name}'
+                f'\nId Number: {self.id_num}'
+                f'\nEmail Address: {self.email_addr}'
+                f'\nPhone Number: {self.phone_num}'
+                )
+        
+    def __str__(self):
+        '''Prints the person class information'''
+        
+        return (f'\n***Person Info***'
+                f'\nFirstName: {self.f_name}'
                 f'\nLastName: {self.l_name}'
                 f'\nId Number: {self.id_num}'
                 f'\nEmail Address: {self.email_addr}'
@@ -320,13 +340,24 @@ class Employee(Person):
         
     
     def __repr__(self):
-        '''Return the repr for Employee'''
+        '''Return the repr() for Employee'''
         
         return(f'{super().__repr__()}'
                f'\nRole: {self._role}'
                f'\nClassification: {self._class_p}'
                f'\nSalary: {self._salary:.2f}'
                f'\nHire Date: {self._h_date}'
+               )
+    
+    def __str__(self):
+        '''Returns the Employee class information'''
+        
+        return(f'\n***Employee Information***'
+               f'{super().__str__()}'
+               f'\nRole: {self.role}'
+               f'\nClassification: {self.class_p}'
+               f'\nSalary: {self.salary}'
+               f'\nHire Date: {self.h_date}'
                )
 
 # invoke main function
