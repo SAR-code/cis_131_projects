@@ -243,6 +243,8 @@ class Person(ABC):
         
         id_num = str(id_num)
         
+        # checks for 4 digits
+        
         if len(id_num) != 4:
             raise Exception("Id needs to be 4 digits")
         else:
@@ -250,6 +252,8 @@ class Person(ABC):
         
         
         self._email_addr = email_addr
+        
+        # checks for 12 digits
         
         if len(phone_num) != 12:
             raise Exception("Enter a proper phone number with dashes")
