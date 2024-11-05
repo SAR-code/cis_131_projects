@@ -1,12 +1,12 @@
 '''
-script: project1Employess.py
+script: project2Employess.py
 
 action: Reads employee and student data from a file
         then stores data in objects and data stuctures
         then outputs data in a different display
         
 author: Dylan McCallum
-date: 31OCT24
+date: 05NOV24
 '''
 
 # import required modules
@@ -222,7 +222,13 @@ def main():
                   f"{employee.email_addr : <35} {employee.phone_num}"
                   )
     
+    # test code delete when finished
         
+    test_student = Student("John", "Wick", 1234, "boogyman@mail", "123-456-7890")
+    
+    test_student.f_name = "Kane"
+    
+    print(test_student.l_name)
     # Invoke get employees and menu functions
     
     get_employees()
@@ -335,7 +341,7 @@ class Person(ABC):
                 f'\nPhone Number: {self.phone_num}'
                 )
 
-# define concrete person class 
+# define concrete employee class 
 
 class Employee(Person):
     '''Concrete Employee class inheriting from Person class'''
@@ -464,6 +470,22 @@ class Employee(Person):
                f'\nHire Date: {self.h_date}'
                )
 
+# define concrete student class
+
+class Student(Person):
+    '''concrete student class inheriting from person class'''
+    
+    def __init__(self, f_name, l_name, id_num, email_addr, phone_num):
+        '''initialize each attribute'''
+        super().__init__(f_name, l_name, id_num, email_addr, phone_num)
+    
+    def __str__(self):
+        return super().__str__()
+    
+    def __repr__(self):
+        return super().__repr__()
+    
+    
 # invoke main function
 main()
 
