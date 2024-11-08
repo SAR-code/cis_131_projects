@@ -9,12 +9,17 @@ date: 07NOV24
 
 # import required modules
 
+import os
 import shodan
 import json
+from dotenv import load_dotenv
+
 
 #import requests
 
-api = shodan.Shodan('VfaI1m0qYR5zc66s6MXhnsrtdqBSnkvd')
+load_dotenv()
+
+api = shodan.Shodan(os.getenv('SHODAN_KEY'))
 query = "'in-tank inventory' state: 'AZ'"
 
 result = api.search(query)
