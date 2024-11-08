@@ -31,4 +31,7 @@ data_dict = json.loads(input_data)
 for i in data_dict:
     for key, value in i.items():
         print(i["data"])
+        # write to a file
+
+
 
