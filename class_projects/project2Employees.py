@@ -321,8 +321,40 @@ def main():
                   )
         
         
+    # declare a function to get all contact info
+    
+    def get_all_person_info():
+        '''
+        This function retrieves all contact information
+        
+        action: Function retrieves and displays all contact
+                information
+                
+        input: None
+        output: Displays all personnel contact info
+        return: None
+        
+        '''
+        
+        # reads both files simultaneously
+        
+        with open('employees.txt', mode = 'r') as file_1, open('students.txt', mode = 'r') as file_2:
+            
+            # skips the first line in both documents
+            
+            next(file_1)
+            next(file_2)
+            
+            # placeholder list
+            
+            personnel_list = []
+        
+        
+        
+        
         
     # Invoke required menu functions
+    
     get_employees()
     get_students()
     create_menu()
