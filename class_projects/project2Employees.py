@@ -34,6 +34,9 @@ def main():
     # create a list of employee objects
     employee_list = []
     
+    # create a list of student objects
+    student_list = []
+    
     # declare a function to get the employees
     
     def get_employees():
@@ -86,12 +89,12 @@ def main():
                                                     float(person[8]),
                                                      person[5])
                         
-                        # appends the newly formed list of objects to the declared list
+                        # appends the newly formed list to the declared list
                         employee_list.append(entered_employee)
                         
                         # displays each employee added
                         print(f"Added employee {entered_employee.f_name}"
-                            f" {entered_employee.l_name}"
+                            f" {entered_employee.l_name}\n"
                             )
 
     
@@ -231,7 +234,67 @@ def main():
     print(test_student.l_name)
     # Invoke get employees and menu functions
     
+    # declare a function to get student info
+    
+    def get_students():
+        '''
+        This functions processess the contents in a txt.file and assigns each
+        each field as an input to the Student class. After each student is 
+        created, they get appended to a list containing student objects
+        
+        action: reads the txt file and structures the information in order
+                to be used in the Student class
+                
+        input: none
+        
+        output: a newly formed list of students based off the txt file
+        
+        return: none
+        '''
+        
+        # using 'with open' for auto closing
+        
+        with open('students.txt', mode = 'r') as students:
+            
+            # skips to the next line
+            next(students)
+            
+            # placeholder list 
+            organize_students = []
+            
+            # sectioning out each student for clean entry
+            for line in students:
+                organize_students.append(line.strip().split())
+            
+            # displays the title and header
+        
+            title = "Student Contact Information\n"
+            print(title.center(80))
+            
+            # loops through a list of clean students
+            
+            for person in organize_students:
+                
+                # enters the respective student
+                
+                entered_student = Student(person[1], person[0],
+                                          person[2], person[3],
+                                          person[4]
+                                          )
+                
+                # appends to student list
+                
+                student_list.append(entered_student)
+                
+                # displays each student added
+                print(f"Added student {entered_student.f_name}"
+                      f" {entered_student.l_name}\n"
+                     )
+                
+            
+        
     get_employees()
+    get_students()
     create_menu()
 
 
