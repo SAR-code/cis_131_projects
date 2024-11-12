@@ -123,6 +123,7 @@ def main():
             print("1. Quit")
             print("2. Display Employee Employment Information")
             print("3. Display Employee Contact Information")
+            print("4. Display Student Contact Information")
             
             try:
                 selection = input("> ")
@@ -136,11 +137,15 @@ def main():
                 elif selection == '2':
                 
                     # displays employment information function
-                    displayEmployeeEmploymentInformation()
+                    display_Employee_Employment_Information()
                 elif selection == '3':
                 
-                     # displays contact information
-                    displayEmployeeContactInformation()
+                     # displays employee contact information
+                    display_Employee_Contact_Information()
+                elif selection == '4':
+                    
+                    # dsplays student contact informatiojn
+                    display_student_contact_information()
                 else:
                 
                     # if invalid entry has been made
@@ -154,7 +159,7 @@ def main():
     
     # declare function for employment information
     
-    def displayEmployeeEmploymentInformation():
+    def display_Employee_Employment_Information():
         '''
         The function organizes and displays the employee employment
         information
@@ -193,7 +198,7 @@ def main():
     
     # Contact Information
     
-    def displayEmployeeContactInformation():
+    def display_Employee_Contact_Information():
         '''
         The function organizes and displays the employee contact
         information
@@ -225,14 +230,6 @@ def main():
                   f"{employee.email_addr : <35} {employee.phone_num}"
                   )
     
-    # test code delete when finished
-        
-    test_student = Student("John", "Wick", 1234, "boogyman@mail", "123-456-7890")
-    
-    test_student.f_name = "Kane"
-    
-    print(test_student.l_name)
-    # Invoke get employees and menu functions
     
     # declare a function to get student info
     
@@ -289,10 +286,43 @@ def main():
                 # displays each student added
                 print(f"Added student {entered_student.f_name}"
                       f" {entered_student.l_name}\n"
-                     )
-                
-            
+                     ) 
+
+    def display_student_contact_information():
+        '''
+        The function organizes and displays the student contact
+        information
         
+        action: takes the list of students and outputs the information
+                related to contacts
+                
+        input: none
+        
+        output: displays each student's contact information
+        
+        return: none
+        
+        '''
+        
+        # display title and header
+        
+        student_title = 'Student Contact Information\n'
+        print(student_title.center(80))
+        
+        print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <15}'
+              f'{"Email" : <35} {"Phone"}'
+              )
+        
+        # iterate through the list of students
+        
+        for student in student_list:
+            print(f"{student.l_name : <15} {student.f_name : <15} {student.id_num : <15}"
+                  f"{student.email_addr : <35} {student.phone_num}"
+                  )
+        
+        
+        
+    # Invoke required menu functions
     get_employees()
     get_students()
     create_menu()
