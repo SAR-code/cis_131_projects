@@ -1,5 +1,549 @@
 
 I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+NOV 12, 2024 11:10 AM
+
+BFI                 
+3031 E. I           
+WILMINGTON,CA       
+                    
+
+IN-TANK INVENTORY       
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  WEST TANK 1           4375      4332     5676    51.19     0.00    81.28
+  2  EAST TANK 2           4776      4732     5275    54.77     0.00    80.08
+
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
+11/12/2024 02:33
+
+AVIA
+
+
+
+IN-TANK INVENTORY
+
+TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
+  1  SUPER                 7010      7193     3156    53.02     1.48    54.10
+  2  UNLEAD                3961      4143     8473    38.79     1.21    52.18
+  3  DIESEL                6213      6257     6744    33.20     9.10    58.00
+  4  ADBLUE                6869      6914     6744    30.83     2.70    55.11
+
+
+I20100
 11/11/24  3:52 PM
 
 823145 Wahweap Marin
@@ -812,518 +1356,6 @@ IN-TANK INVENTORY
 
 TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
   1  JET A FUEL              6322         0     7156    51.56     0.00   87.32
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  9:45 PM
-
-Roberts Market
-6640 N Viewpoint Dr
-Prescott Valley
-AZ, 86314
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  Unleaded               11054         0    13916    54.45     0.00   71.23
-  2  Premium                 5838         0     6096    58.67     0.00   73.14
-  3  Diesel                  4761         0     7173    50.14     0.00   75.57
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
-
-
-
-I20100
-11/10/24  1:38 PM
-
-
-
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT               VOLUME TC-VOLUME   ULLAGE   HEIGHT    WATER    TEMP
-  1  DIESEL                  4293         0     5859    42.17     0.00   63.95
 
 
 
@@ -3536,278 +3568,6 @@ TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
 
 
 I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
-NOV  7, 2024  9:35 AM
-
-RTE 66 GENERAL STORE
-502 HWY 66
-SLIGMAN AZ 86337
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEAD                6946      6903     4837    54.22     0.79    68.93
-  2  SUPER                 1086      1080     1914    29.54     0.81    66.34
-  3  DIESEL                1166      1161     1834    29.66     0.00    67.45
-
-
-
-I20100
     07-11-24  7:10
 
 BENNETT OIL PACPRIDE
@@ -4396,566 +4156,6 @@ TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
   2  REGULAR 2             2571      2556     5450    34.28     0.00    68.44
   3  PREMIUM               1363      1353     6658    21.73     0.85    69.69
   4  DIESEL                1313      1306     6708    21.17     1.09    71.51
-
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-11/05/2024 17:38
-
-AVIA
-
-
-
-IN-TANK INVENTORY
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  SUPER                 6016      6048     6199    47.30     5.05    53.58
-  2  UNLEAD                8451      8492     6581    75.01     6.69    56.56
-  3  DIESEL                6618      6756     7024    36.59     7.75    56.76
-  4  ADBLUE                8617      8701     7024    69.94     9.80    50.22
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
-
-
-
-I20100
-NOV  5, 2024  3:35 AM
-
-THUMB BUTTE PIT STOP
-1451 W GURLEY ST.
-PRESCOTT AZ
-
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  UNLEADED              4054      4015     7539    34.95     0.00    73.38
-  2  PREMIUM               2119      2098     3778    35.22     0.00    74.23
-  3  DIESEL                1216      1181     4704    23.38     0.00   122.84
 
 
 
@@ -6604,262 +5804,6 @@ TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
   2  UNLEADED              9303      9150     5673    69.27     0.00    85.34
   3  SUPER UNLEADED        2359      2319     5482    30.68     0.00    85.65
   4  OFF ROAD DIESEL       2123      2098     2520    41.96     0.00    86.01
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
-
-
-
-I20100
-OCT 26, 2024  2:18 AM
-
-BFI                 
-3031 E. I           
-WILMINGTON,CA       
-                    
-
-IN-TANK INVENTORY       
-
-TANK PRODUCT             VOLUME TC VOLUME   ULLAGE   HEIGHT    WATER     TEMP
-  1  WEST TANK 1           5397      5341     4654    60.31     0.00    82.76
-  2  EAST TANK 2           6060      6008     3991    66.26     0.00    78.84
 
 
 

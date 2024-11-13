@@ -124,6 +124,7 @@ def main():
             print("2. Display Employee Employment Information")
             print("3. Display Employee Contact Information")
             print("4. Display Student Contact Information")
+            print("5. Display All Person Contact Information")
             
             try:
                 selection = input("> ")
@@ -144,8 +145,12 @@ def main():
                     display_Employee_Contact_Information()
                 elif selection == '4':
                     
-                    # dsplays student contact informatiojn
+                    # displays student contact information
                     display_student_contact_information()
+                elif selection == '5':
+                    
+                    # displays all contact information
+                    get_all_person_info()
                 else:
                 
                     # if invalid entry has been made
@@ -336,25 +341,30 @@ def main():
         
         '''
         
-        # reads both files simultaneously
+        # displays the title and header
         
-        with open('employees.txt', mode = 'r') as file_1, open('students.txt', mode = 'r') as file_2:
-            
-            # skips the first line in both documents
-            
-            next(file_1)
-            next(file_2)
-            
-            # placeholder list
-            
-            personnel_list = []
+        title = "All Person Contact Information\n"
+        print(title.center(80))
         
+        print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <16}'
+              f'{"Email" : <34} {"Phone"}'
+              )
         
+        # combines both lists
         
+        master_contact_list = employee_list + student_list
         
+        # iterates through the master contact list
         
+        for person in master_contact_list:
+            print(f"{person.l_name : <15} {person.f_name : <16}"
+                  f"{person.id_num : <15} {person.email_addr : <35}"
+                  f"{person.phone_num}"
+                  )
+
+
     # Invoke required menu functions
-    
+
     get_employees()
     get_students()
     create_menu()
@@ -613,7 +623,6 @@ class Student(Person):
     
     def __repr__(self):
         return super().__repr__()
-    
     
 # invoke main function
 main()
