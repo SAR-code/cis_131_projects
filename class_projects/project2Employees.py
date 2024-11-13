@@ -34,6 +34,9 @@ def main():
     # create a list of employee objects
     employee_list = []
     
+    # create a list of student objects
+    student_list = []
+    
     # declare a function to get the employees
     
     def get_employees():
@@ -86,12 +89,12 @@ def main():
                                                     float(person[8]),
                                                      person[5])
                         
-                        # appends the newly formed list of objects to the declared list
+                        # appends the newly formed list to the declared list
                         employee_list.append(entered_employee)
                         
                         # displays each employee added
                         print(f"Added employee {entered_employee.f_name}"
-                            f" {entered_employee.l_name}"
+                            f" {entered_employee.l_name}\n"
                             )
 
     
@@ -120,6 +123,7 @@ def main():
             print("1. Quit")
             print("2. Display Employee Employment Information")
             print("3. Display Employee Contact Information")
+            print("4. Display Student Contact Information")
             
             try:
                 selection = input("> ")
@@ -133,11 +137,15 @@ def main():
                 elif selection == '2':
                 
                     # displays employment information function
-                    displayEmployeeEmploymentInformation()
+                    display_Employee_Employment_Information()
                 elif selection == '3':
                 
-                     # displays contact information
-                    displayEmployeeContactInformation()
+                     # displays employee contact information
+                    display_Employee_Contact_Information()
+                elif selection == '4':
+                    
+                    # dsplays student contact informatiojn
+                    display_student_contact_information()
                 else:
                 
                     # if invalid entry has been made
@@ -151,7 +159,7 @@ def main():
     
     # declare function for employment information
     
-    def displayEmployeeEmploymentInformation():
+    def display_Employee_Employment_Information():
         '''
         The function organizes and displays the employee employment
         information
@@ -190,7 +198,7 @@ def main():
     
     # Contact Information
     
-    def displayEmployeeContactInformation():
+    def display_Employee_Contact_Information():
         '''
         The function organizes and displays the employee contact
         information
@@ -222,16 +230,133 @@ def main():
                   f"{employee.email_addr : <35} {employee.phone_num}"
                   )
     
-    # test code delete when finished
+    
+    # declare a function to get student info
+    
+    def get_students():
+        '''
+        This functions processess the contents in a txt.file and assigns each
+        each field as an input to the Student class. After each student is 
+        created, they get appended to a list containing student objects
         
-    test_student = Student("John", "Wick", 1234, "boogyman@mail", "123-456-7890")
+        action: reads the txt file and structures the information in order
+                to be used in the Student class
+                
+        input: none
+        
+        output: a newly formed list of students based off the txt file
+        
+        return: none
+        '''
+        
+        # using 'with open' for auto closing
+        
+        with open('students.txt', mode = 'r') as students:
+            
+            # skips to the next line
+            next(students)
+            
+            # placeholder list 
+            organize_students = []
+            
+            # sectioning out each student for clean entry
+            for line in students:
+                organize_students.append(line.strip().split())
+            
+            # displays the title and header
+        
+            title = "Student Contact Information\n"
+            print(title.center(80))
+            
+            # loops through a list of clean students
+            
+            for person in organize_students:
+                
+                # enters the respective student
+                
+                entered_student = Student(person[1], person[0],
+                                          person[2], person[3],
+                                          person[4]
+                                          )
+                
+                # appends to student list
+                
+                student_list.append(entered_student)
+                
+                # displays each student added
+                print(f"Added student {entered_student.f_name}"
+                      f" {entered_student.l_name}\n"
+                     ) 
+
+    def display_student_contact_information():
+        '''
+        The function organizes and displays the student contact
+        information
+        
+        action: takes the list of students and outputs the information
+                related to contacts
+                
+        input: none
+        
+        output: displays each student's contact information
+        
+        return: none
+        
+        '''
+        
+        # display title and header
+        
+        student_title = 'Student Contact Information\n'
+        print(student_title.center(80))
+        
+        print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <15}'
+              f'{"Email" : <35} {"Phone"}'
+              )
+        
+        # iterate through the list of students
+        
+        for student in student_list:
+            print(f"{student.l_name : <15} {student.f_name : <15} {student.id_num : <15}"
+                  f"{student.email_addr : <35} {student.phone_num}"
+                  )
+        
+        
+    # declare a function to get all contact info
     
-    test_student.f_name = "Kane"
-    
-    print(test_student.l_name)
-    # Invoke get employees and menu functions
+    def get_all_person_info():
+        '''
+        This function retrieves all contact information
+        
+        action: Function retrieves and displays all contact
+                information
+                
+        input: None
+        output: Displays all personnel contact info
+        return: None
+        
+        '''
+        
+        # reads both files simultaneously
+        
+        with open('employees.txt', mode = 'r') as file_1, open('students.txt', mode = 'r') as file_2:
+            
+            # skips the first line in both documents
+            
+            next(file_1)
+            next(file_2)
+            
+            # placeholder list
+            
+            personnel_list = []
+        
+        
+        
+        
+        
+    # Invoke required menu functions
     
     get_employees()
+    get_students()
     create_menu()
 
 
