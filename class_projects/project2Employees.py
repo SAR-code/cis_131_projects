@@ -70,6 +70,9 @@ def main():
             for line in employees:
                 organize_list.append(line.strip().split())
             
+            # display header
+            print("Adding Employees\n")
+            
             # loops through the list of clean employees
             for person in organize_list:
                 
@@ -270,8 +273,8 @@ def main():
             
             # displays the title and header
         
-            title = "Student Contact Information\n"
-            print(title.center(80))
+            title = "Adding Students\n"
+            print(title)
             
             # loops through a list of clean students
             
