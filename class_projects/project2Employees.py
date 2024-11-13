@@ -346,7 +346,7 @@ def main():
         title = "All Person Contact Information\n"
         print(title.center(80))
         
-        print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <15}'
+        print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <16}'
               f'{"Email" : <34} {"Phone"}'
               )
         
@@ -357,7 +357,7 @@ def main():
         # iterates through the master contact list
         
         for person in master_contact_list:
-            print(f"{person.l_name : <15} {person.f_name : <15}"
+            print(f"{person.l_name : <15} {person.f_name : <16}"
                   f"{person.id_num : <15} {person.email_addr : <35}"
                   f"{person.phone_num}"
                   )
