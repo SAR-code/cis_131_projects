@@ -18,8 +18,8 @@ load_dotenv()
 
 
 #Initialize the Twillio account and token as well as create the client
-account_sid = "AC80a5bee97e86439c317871e321c7d302"
-auth_token  = "0d546b8b194d50a464edcc1bf6813f01"
+account_sid = os.getenv('ACCOUNT_SID')
+auth_token  = os.getenv('AUTH_TOKEN')
 client = Client(account_sid, auth_token)
 
 #Initialize the Shodan API key
@@ -48,15 +48,15 @@ for i in datadict:
 		msg += i["data"] + "\r"
 
 # send the email
-ezgmail.send('dmccallum@mail.pima.edu','Internet Gas Gauges in AZ',msg)
+ezgmail.send(os.getenv('TEST_EMAIL'),'Internet Gas Gauges in AZ',msg)
 
 # send a notification to SMS
 # logic should be included to only send this if specific criteria were found in the results
 
 message = client.messages .create(
                      body="Internet Gas Gauge in AZ report delivered to email",
-                     from_='+18775646198',
-                     to='+15202228673'
+                     from_= os.getenv('TWILIO_NUM'),
+                     to= os.getenv('TEST_NUM')
 )
                 
 
