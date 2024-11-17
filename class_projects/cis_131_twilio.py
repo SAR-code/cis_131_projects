@@ -53,12 +53,12 @@ ezgmail.send('dmccallum@mail.pima.edu','Internet Gas Gauges in AZ',msg)
 # send a notification to SMS
 # logic should be included to only send this if specific criteria were found in the results
 
-message = client.messages \
-                .create(
+message = client.messages .create(
                      body="Internet Gas Gauge in AZ report delivered to email",
                      from_='+18775646198',
-                     to='+16198066141'
-                 )
+                     to='+15202228673'
+)
+                
 
 print(message.sid)
 
