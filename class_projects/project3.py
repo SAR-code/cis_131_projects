@@ -128,6 +128,7 @@ def main():
             print("3. Display Employee Contact Information")
             print("4. Display Student Contact Information")
             print("5. Display All Person Contact Information")
+            print("6. Display Student Academic Scores")
             
             try:
                 selection = input("> ")
@@ -154,6 +155,10 @@ def main():
                     
                     # displays all contact information
                     get_all_person_info()
+                elif selection == '6':
+                    
+                    # displays student's scores
+                    display_student_scores()
                 else:
                 
                     # if invalid entry has been made
@@ -295,6 +300,46 @@ def main():
                 print(f"Added student {entered_student.f_name}"
                       f" {entered_student.l_name}\n"
                      ) 
+    
+    def get_student_scores():
+        '''
+        This function processess the contents in a txt.file
+        and assigns each field as an input for scores in the Student class
+        
+        action:
+        input:
+        output:
+        return:
+        
+        '''
+        
+        # using 'with open' for auto closing
+        
+        with open('studentScores.txt', mode = 'r') as students:
+            
+            # skips to the next line
+            lines = students.readlines()[1:]
+            
+            # displays the title and header
+            
+            title = "Adding Student Scores\n"
+            print(title)
+            
+        
+            for line in lines:
+                data = line.split()
+                student_id = int(data[2])
+                scores = list(map(int, data[2:]))
+                
+                for student in student_list:
+                    if student.id_num == student_id:
+                    
+                        for index, score in enumerate(scores):
+                            course = Student.course_name_list[index]
+                            student.enter_scores(course, score)
+                        
+                        print(f"Added scores for {student.f_name} {student.l_name}...")
+
 
     def display_student_contact_information():
         '''
@@ -348,7 +393,10 @@ def main():
               f'{"Science" : <15} {"Mathematics" : <15}'
               )
         
-        ###### You stopped right here
+        # iterate through the list of student scores
+        
+        #for students in 
+        
         
     # declare a function to get all contact info
     
@@ -391,6 +439,7 @@ def main():
 
     get_employees()
     get_students()
+    get_student_scores()
     create_menu()
 
 
@@ -642,17 +691,40 @@ class Student(Person):
     
     course_name_list = ['Art', 'Latin', 'Greek', 'Mathematics', 'Science', 'Painting', 'Sculpting']
     
-    def __init__(self, f_name, l_name, id_num, email_addr, phone_num, courses_stud_dict):
+    def __init__(self, f_name, l_name, id_num, email_addr, phone_num):
         '''initialize each attribute'''
         super().__init__(f_name, l_name, id_num, email_addr, phone_num)
         
-        self._coures_stud_dict = courses_stud_dict
+        # declare a dictionary to store scores for students
+        self.courses_student_scores = {}
         
         
     
-    @staticmethod
-    def get_keys_course(courses_stud_dict):
-        pass
+    def courses_student_dict(self):
+        '''Gets the student scores'''
+        
+        grades = []
+        
+        for score in Student.course_name_list:
+            grade = self.courses_student_scores.get(score, "None")
+            grades.append(str(grade))
+        
+        updated_student_grades = [self._l_name, 
+                                  self._f_name, 
+                                  str(self._id_num)
+                                  ] + grades
+        
+        return updated_student_grades
+    
+    
+    def enter_scores(self, course, score):
+        '''Enters the scores from the scores.txt file'''
+        
+        if course in Student.course_name_list and 0 < score < 100:
+            self.courses_student_scores[course] = score
+            #print(f"Added scores for {self._f_name} {self._l_name}...")
+        
+        
     
     
     def __str__(self):
