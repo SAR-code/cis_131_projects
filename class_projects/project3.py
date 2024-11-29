@@ -315,7 +315,7 @@ def main():
         
         # using 'with open' for auto closing
         
-        with open('studentScores.txt', mode = 'r') as students:
+        with open('scores.txt', mode = 'r') as students:
             
             # skips to the next line
             lines = students.readlines()[1:]
@@ -328,8 +328,8 @@ def main():
         
             for line in lines:
                 data = line.split()
-                student_id = int(data[2])
-                scores = list(map(int, data[2:]))
+                student_id = int(data[0])
+                scores = list(map(int, data[1:]))
                 
                 for student in student_list:
                     if student.id_num == student_id:
@@ -338,7 +338,9 @@ def main():
                             course = Student.course_name_list[index]
                             student.enter_scores(course, score)
                         
-                        print(f"Added scores for {student.f_name} {student.l_name}...")
+                        print(f"Added scores for {student.f_name} "
+                              f"{student.l_name}...\n"
+                              )
 
 
     def display_student_contact_information():
