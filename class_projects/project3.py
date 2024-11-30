@@ -239,8 +239,8 @@ def main():
         # iterates through the list of employees and displays the desired data
 
         for employee in employee_list:
-            print(f"{employee.l_name : <15} {employee.f_name : <15}" 
-                  f"{employee.id_num : <15} {employee.email_addr : <35}"
+            print(f"{employee.l_name : <15} {employee.f_name : <15} " 
+                  f"{employee.id_num : <14} {employee.email_addr : <35}"
                   f"{employee.phone_num}"
                   )
 
