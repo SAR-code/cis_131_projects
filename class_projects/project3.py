@@ -239,8 +239,9 @@ def main():
         # iterates through the list of employees and displays the desired data
 
         for employee in employee_list:
-            print(f"{employee.l_name : <15} {employee.f_name : <15} {employee.id_num : <15}"
-                  f"{employee.email_addr : <35} {employee.phone_num}"
+            print(f"{employee.l_name : <15} {employee.f_name : <15}" 
+                  f"{employee.id_num : <15} {employee.email_addr : <35}"
+                  f"{employee.phone_num}"
                   )
 
 
@@ -386,8 +387,9 @@ def main():
         # iterate through the list of students
 
         for student in student_list:
-            print(f"{student.l_name : <15} {student.f_name : <15} {student.id_num : <15}"
-                  f"{student.email_addr : <35} {student.phone_num}"
+            print(f"{student.l_name : <15} {student.f_name : <15} " 
+                  f"{student.id_num : <14} {student.email_addr : <35} "
+                  f"{student.phone_num}"
                   )
 
 
@@ -642,7 +644,7 @@ class Employee(Person):
 
     @staticmethod
     def get_keys_class(class_p):
-        '''compares classification input with key/value pair in the dictionary'''
+        '''compares classification input with key/value pair in dictionary'''
         for key, value in Employee.classification_dictionary.items():
             if value == class_p:
                 return key
@@ -731,7 +733,10 @@ class Student(Person):
 
     # declare class variables
 
-    course_name_list = ['Art', 'Greek', 'Latin', 'Science', 'Mathematics', 'Painting', 'Sculpting']
+    course_name_list = ['Art', 'Greek', 'Latin', 
+                        'Science', 'Mathematics', 'Painting', 
+                        'Sculpting'
+                        ]
 
     def __init__(self, f_name, l_name, id_num, email_addr, phone_num):
         '''initialize each attribute'''
