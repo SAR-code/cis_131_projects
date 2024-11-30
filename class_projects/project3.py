@@ -390,15 +390,32 @@ def main():
         title = "Student Scores\n"
         print(title.center(80))
         
-        print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <16}'
-              f'{"Art" : <15} {"Greek" : <15} {"Latin" : <15}'
-              f'{"Science" : <15} {"Mathematics" : <15}'
+        print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <15}', end="")
+        
+        # Displays the specific subject categories
+        
+        print(f'{Student.course_name_list[0] : <15} '
+              f'{Student.course_name_list[1] : <15} '
+              f'{Student.course_name_list[2] : <15} '
+              f'{Student.course_name_list[3] : <15} '
+              f'{Student.course_name_list[4] : <15} '
               )
         
         # iterate through the list of student scores
         
-        #for students in 
         
+        for student in student_list:
+            grades = student.get_student_academics()
+            
+            print(f"{grades[0] : <15} {grades[1] : <15} "
+                  f"{grades[2] : <14}", end=""
+                  )
+            
+            print(f" {grades[3] : <15} {grades[4] : <15}"
+                  f" {grades[5] : <15} {grades[6] : <15}"
+                  f" {grades[7] : <15}"
+                  )
+            
         
     # declare a function to get all contact info
     
@@ -691,7 +708,7 @@ class Student(Person):
     
     # declare class variables
     
-    course_name_list = ['Art', 'Latin', 'Greek', 'Mathematics', 'Science', 'Painting', 'Sculpting']
+    course_name_list = ['Art', 'Greek', 'Latin', 'Science', 'Mathematics', 'Painting', 'Sculpting']
     
     def __init__(self, f_name, l_name, id_num, email_addr, phone_num):
         '''initialize each attribute'''
@@ -702,13 +719,13 @@ class Student(Person):
         
         
     
-    def courses_student_dict(self):
+    def get_student_academics(self):
         '''Gets the student scores'''
         
         grades = []
         
         for score in Student.course_name_list:
-            grade = self.courses_student_scores.get(score, "None")
+            grade = self.courses_student_scores.get(score, "Not Entered")
             grades.append(str(grade))
         
         updated_student_grades = [self._l_name, 
@@ -722,9 +739,9 @@ class Student(Person):
     def enter_scores(self, course, score):
         '''Enters the scores from the scores.txt file'''
         
-        if course in Student.course_name_list and 0 < score < 100:
+        if course in Student.course_name_list and 0 < score < 101:
             self.courses_student_scores[course] = score
-            #print(f"Added scores for {self._f_name} {self._l_name}...")
+            
         
         
     
