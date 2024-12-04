@@ -1,18 +1,18 @@
 '''
-script: project3Employess.py
+script: project4Employess.py
 
-action: Reads employee and student data from a file
-        then stores data in objects and data stuctures
-        then outputs data in a different display
+action: Retrieves the average grade for each student, the class, and 
+        displays the students that have made the honor roll
 
 author: Dylan McCallum
-date: 19NOV24
+date: 03DEC24
 '''
 
 # import required modules
 
 from abc import ABC
 from datetime import date
+
 
 
 # define a main function to run the entire script
@@ -128,7 +128,9 @@ def main():
             print("3. Display Employee Contact Information")
             print("4. Display Student Contact Information")
             print("5. Display All Person Contact Information")
-            print("6. Display Student Academic Scores")
+            print("6. Display Full Student Academic Scores")
+            print("7. Display Academic Report for one Student")
+            print("8. Display Honor Roll")
 
             try:
                 selection = input("> ")
@@ -158,7 +160,15 @@ def main():
                 elif selection == '6':
 
                     # displays student's scores
-                    display_student_scores()
+                    display_full_student_academic_report()
+                elif selection == '7':
+                    
+                    # displays the full academic report on a single student
+                    get_student_academic_report()
+                elif selection == '8':
+                    
+                    # gets the students who are on the honor roll
+                    get_honor_roll()
                 else:
 
                     # if invalid entry has been made
@@ -393,55 +403,6 @@ def main():
                   )
 
 
-    def display_student_scores():
-        '''
-        This function organizes and displays the students scores
-    
-        action: displays the list of students where the student ID matches
-                the student's score
-                
-        input: none
-    
-        output: displays each student's grade report
-    
-        return: none
-    
-        '''
-        # displays the title and header
-        
-        title = "Student Scores\n"
-        print(title.center(130))
-
-        print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <15}', end="")
-
-        # Displays the specific subject categories
-
-        print(f'{Student.course_name_list[0] : <15} '
-              f'{Student.course_name_list[1] : <15} '
-              f'{Student.course_name_list[2] : <15} '
-              f'{Student.course_name_list[3] : <15} '
-              f'{Student.course_name_list[4] : <15} '
-              )
-
-        # iterate through the list of student scores
-
-        for student in student_list:
-            grades = student.get_student_academics()
-
-            # inserts student's firstname, lastname, and ID
-
-            print(f"{grades[0] : <15} {grades[1] : <15} "
-                  f"{grades[2] : <14}", end=""
-                  )
-
-            # inserts student's scores for respective subjects
-
-            print(f" {grades[3] : <15} {grades[4] : <15}"
-                  f" {grades[5] : <15} {grades[6] : <15}"
-                  f" {grades[7] : <15}"
-                  )
-
-
     # declare a function to get all contact info
 
     def get_all_person_info():
@@ -477,6 +438,95 @@ def main():
                   f"{person.id_num : <15} {person.email_addr : <35}"
                   f"{person.phone_num}"
                   )
+    
+    # declare a function to display an academic report for one student
+    
+    def display_full_student_academic_report():
+        '''
+        This function displays the full academic report with each student's 
+        grade average as well as the class average
+        
+        action:
+        input:
+        output:
+        return:
+        
+        '''
+        
+         # displays the title and header
+        
+        title = "Full Academic Report\n"
+        print(title.center(130))
+
+        print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <15}', end="")
+
+        # Displays the specific subject categories
+
+        print(f'{Student.course_name_list[0] : <15} '
+              f'{Student.course_name_list[1] : <15} '
+              f'{Student.course_name_list[2] : <15} '
+              f'{Student.course_name_list[3] : <15} '
+              f'{Student.course_name_list[4] : <15} '
+              f'{"High" : <15}'
+              f'{"Low" : <15}'
+              f'{"Average" : <15}'
+              f'{"grade" : <15}'
+              )
+
+        # iterate through the list of student scores
+
+        for student in student_list:
+            grades = student.get_student_academics()
+            
+            # converts list of grades to ints
+            
+            # for number in range(len(grades)):
+            #     grades[number] = int(grades[number])
+
+            # calculates the low, high and grade average
+            
+            # grade_high = max(grades)
+            # grades_low = min(grades)
+            # grades_average = sum(grades) / len(grades)
+            
+            
+
+            # inserts student's firstname, lastname, and ID
+
+            print(f"{grades[0] : <15} {grades[1] : <15} "
+                  f"{grades[2] : <14}", end=""
+                  )
+
+            # inserts student's scores for respective subjects
+
+            print(f" {grades[3] : <15} {grades[4] : <15}"
+                  f" {grades[5] : <15} {grades[6] : <15}"
+                  f" {grades[7] : <15}"
+                  )
+            
+            # inserts the high, low, and average grade
+            
+            # print(f"{str(grade_high)} : <15")
+        
+    
+    # declare a function to get the student academic report
+    
+    def get_student_academic_report():
+        '''
+        This function gets the academic report of a single student
+        
+        action:
+        input: None
+        output:
+        return: None
+        '''
+        pass
+    
+    # declare a function to get the honor roll students
+    
+    def get_honor_roll():
+        pass
+
 
 
     # Invoke required menu functions
