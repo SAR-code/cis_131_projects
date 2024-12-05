@@ -456,7 +456,7 @@ def main():
          # displays the title and header
         
         title = "Full Academic Report\n"
-        print(title.center(130))
+        print(title.center(180))
 
         print(f'{"LastName" : <15} {"FirstName" : <15} {"ID" : <15}', end="")
 
@@ -478,9 +478,6 @@ def main():
         for student in student_list:
             grades = student.get_student_academics()
             
-            
-            
-
             # separates the grade portion of the list
             
             grade_list = slice(3,8)
@@ -498,8 +495,32 @@ def main():
             
             grade_high = max(grade_numbers)
             grade_low = min(grade_numbers)
+            
+            # retrieves the average of each student
+            
+            grade_average = sum(grade_numbers) / len(grade_numbers)
+            
+            # declare variable for letter grade
+            
+            letter_grade = ''
+            
+            # assigns a letter grade based off the average score
+            
+            if grade_average >= 90:
+                letter_grade = 'A'
                 
-           
+            elif grade_average >= 80:
+                letter_grade = 'B'
+                
+            elif grade_average >= 70:
+                letter_grade = 'C'
+                
+            elif grade_average >= 60:
+                letter_grade = 'D'
+                
+            else:
+                letter_grade = 'F'
+                
             # inserts student's firstname, lastname, and ID
 
             print(f"{grades[0] : <15} {grades[1] : <15} "
@@ -511,12 +532,10 @@ def main():
             print(f" {grades[3] : <15} {grades[4] : <15}"
                   f" {grades[5] : <15} {grades[6] : <15}"
                   f" {grades[7] : <20} {grade_high : <14}"
-                  f" {grade_low : <15} "
+                  f" {grade_low : <14} {grade_average : <15}"
+                  f" {letter_grade : <15}"
                   )
             
-            # inserts the high, low, and average grade
-            
-            # print(f"{str(grade_high)} : <15")
         
     
     # declare a function to get the student academic report
