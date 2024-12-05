@@ -466,7 +466,7 @@ def main():
               f'{Student.course_name_list[1] : <15} '
               f'{Student.course_name_list[2] : <15} '
               f'{Student.course_name_list[3] : <15} '
-              f'{Student.course_name_list[4] : <15} '
+              f'{Student.course_name_list[4] : <20} '
               f'{"High" : <15}'
               f'{"Low" : <15}'
               f'{"Average" : <15}'
@@ -478,19 +478,28 @@ def main():
         for student in student_list:
             grades = student.get_student_academics()
             
-            # converts list of grades to ints
-            
-            # for number in range(len(grades)):
-            #     grades[number] = int(grades[number])
-
-            # calculates the low, high and grade average
-            
-            # grade_high = max(grades)
-            # grades_low = min(grades)
-            # grades_average = sum(grades) / len(grades)
             
             
 
+            # separates the grade portion of the list
+            
+            grade_list = slice(3,8)
+            
+            # creates a copy of the shortened list
+            
+            grade_numbers = list(grades[grade_list])
+            
+            # converts the grades into ints
+            
+            for num in range(len(grade_numbers)):
+                grade_numbers[num] = int(grade_numbers[num])
+            
+            # retrieves the min and max from the list of grades
+            
+            grade_high = max(grade_numbers)
+            grade_low = min(grade_numbers)
+                
+           
             # inserts student's firstname, lastname, and ID
 
             print(f"{grades[0] : <15} {grades[1] : <15} "
@@ -501,7 +510,8 @@ def main():
 
             print(f" {grades[3] : <15} {grades[4] : <15}"
                   f" {grades[5] : <15} {grades[6] : <15}"
-                  f" {grades[7] : <15}"
+                  f" {grades[7] : <20} {grade_high : <14}"
+                  f" {grade_low : <15} "
                   )
             
             # inserts the high, low, and average grade
