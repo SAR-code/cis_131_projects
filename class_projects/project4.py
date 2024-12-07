@@ -536,37 +536,98 @@ def main():
                   f" {letter_grade : <15}"
                   )
         
+        # stores the scores matrix into a variable
+        score_func = return_list_result()
+        
+        
         # display the overall high, low and average for each subject
         
-        print(f"\n{'High' : <15}", end="")
+        print(f"\n{'High' : <46}", end="")
         
-        # declare the high scores of each subject
+        # retrieves the highest score from each subject 
         
-        # for student in student_list:
-        #     grades = student.get_student_academics()
-            
-        #     grade_list = slice(3,8)
-            
-        #     grade_scores = list(grades[grade_list])
-            
-        #     print(grade_scores[0])
-        #     for num in range(len(grade_scores)):
-        #         grade_scores[num] = int(grade_scores[num])
-            
-            
-            #try opening the scores.txt
-           
-                
-                 
-        print(f"{'Low' : <15}")
+        high_art_score = max(row[0] for row in score_func)
+        high_greek_score = max(row[1] for row in score_func)
+        high_latin_score = max(row[2] for row in score_func)
+        high_science_score = max(row[3] for row in score_func)
+        high_math_score = max(row[4] for row in score_func)
         
-        # declare the low scores of each subject
+        # displays the highest score from each subject
         
-        print(f"{'Average' : <15}")
+        print(f" {high_art_score : <15} {high_greek_score : <15}"
+              f" {high_latin_score : <15} {high_science_score : <15}"
+              f" {high_math_score : <15}"
+              )
         
-        # declare the average of each subject
+        # displays low title
+        
+        print(f"{'Low' : <46}", end="")
+        
+        # retrieves the lowest scores from each subject
+        
+        low_art_score = min(row[0] for row in score_func)
+        low_greek_score = min(row[1] for row in score_func)
+        low_latin_score = min(row[2] for row in score_func)
+        low_science_score = min(row[3] for row in score_func)
+        low_math_score = min(row[4] for row in score_func)
+        
+        # displays the lowest score from each subject
+        
+        print(f" {low_art_score : <15} {low_greek_score : <15}"
+              f" {low_latin_score : <15} {low_science_score : <15}"
+              f" {low_math_score : <15}"
+              )
+        
+        # displays the average
+        
+        print(f"{'Average' : <46}", end="")
+        
+        # retrieves the average of each subject
+        
+        average_art_scores = (sum(row[0] for row in score_func) / 
+                              len(score_func)
+                             )
+        
+        average_greek_scores = (sum(row[1] for row in score_func) / 
+                              len(score_func)
+                             )
+        
+        average_latin_scores = (sum(row[2] for row in score_func) / 
+                              len(score_func)
+                             )
+        
+        average_science_scores = (sum(row[3] for row in score_func) / 
+                              len(score_func)
+                             )
+        average_math_scores = (sum(row[4] for row in score_func) / 
+                              len(score_func)
+                             )
+        
+        # displays the average scores
+        
+        print(f" {average_art_scores : <15} {average_greek_scores : <15}"
+              f" {average_latin_scores : <15} {average_science_scores : <15}"
+              f" {average_math_scores : <15}"
+              )
+
+    # declare helper function to retrieve the scores matrix
+    
+    def return_list_result():
+        final_grade_list = []
+        for student in student_list:
+            grades = student.get_student_academics()
             
-        
+            grade_list = slice(3,8)
+            
+            grade_scores = list(grades[grade_list])
+            
+            for num in range(len(grade_scores)):
+                grade_scores[num] = int(grade_scores[num])
+            
+            final_grade_list.append(grade_scores)
+            
+        return final_grade_list
+
     
     # declare a function to get the student academic report
     
