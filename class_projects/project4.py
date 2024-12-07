@@ -535,6 +535,36 @@ def main():
                   f" {grade_low : <14} {grade_average : <15}"
                   f" {letter_grade : <15}"
                   )
+        
+        # display the overall high, low and average for each subject
+        
+        print(f"\n{'High' : <15}", end="")
+        
+        # declare the high scores of each subject
+        
+        # for student in student_list:
+        #     grades = student.get_student_academics()
+            
+        #     grade_list = slice(3,8)
+            
+        #     grade_scores = list(grades[grade_list])
+            
+        #     print(grade_scores[0])
+        #     for num in range(len(grade_scores)):
+        #         grade_scores[num] = int(grade_scores[num])
+            
+            
+            #try opening the scores.txt
+           
+                
+                 
+        print(f"{'Low' : <15}")
+        
+        # declare the low scores of each subject
+        
+        print(f"{'Average' : <15}")
+        
+        # declare the average of each subject
             
         
     
