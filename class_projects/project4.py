@@ -13,7 +13,6 @@ date: 03DEC24
 from abc import ABC
 from datetime import date
 
-# declare global variables
 
 # create a list of employee objects
 employee_list = []
@@ -106,7 +105,6 @@ def get_employees():
                         print(f"Added employee {entered_employee.f_name}"
                               f" {entered_employee.l_name}\n"
                              )
-# define abstract person class
 
 # declare function to create menu
 
@@ -454,7 +452,7 @@ def display_full_student_academic_report(student_list, score_info):
     action: Outputs the the display of the student's grade high, low 
             average as well as the class average
                 
-    input: None
+    input: Student_list and score_info
     output: Displays the full academic report with the calculated grades
     return: None
         
