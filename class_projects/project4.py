@@ -90,7 +90,7 @@ def main():
                                                     person[4], person[6],
                                                     person[7], 
                                                     float(person[8]),
-                                                     person[5])
+                                                    person[5])
 
                         # appends the newly formed list to the declared list
                         employee_list.append(entered_employee)
@@ -446,10 +446,12 @@ def main():
         This function displays the full academic report with each student's 
         grade average as well as the class average
         
-        action:
-        input:
-        output:
-        return:
+        action: Outputs the the display of the student's grade high, low 
+                average as well as the class average
+                
+        input: None
+        output: Displays the full academic report with the calculated grades
+        return: None
         
         '''
         
@@ -537,7 +539,7 @@ def main():
                   )
         
         # stores the scores matrix into a variable
-        score_func = return_list_result()
+        score_func = get_student_academic_report()
         
         
         # display the overall high, low and average for each subject
@@ -610,9 +612,9 @@ def main():
               f" {average_math_scores : <15}"
               )
 
-    # declare helper function to retrieve the scores matrix
+    # declare a function to get the student academic report
     
-    def return_list_result():
+    def get_student_academic_report():
         final_grade_list = []
         for student in student_list:
             grades = student.get_student_academics()
@@ -628,19 +630,8 @@ def main():
             
         return final_grade_list
 
-    
     # declare a function to get the student academic report
-    
-    def get_student_academic_report():
-        '''
-        This function gets the academic report of a single student
-        
-        action:
-        input: None
-        output:
-        return: None
-        '''
-        pass
+
     
     # declare a function to get the honor roll students
     
