@@ -2,10 +2,11 @@
 script: project5Employess.py
 
 action: Retrieves the average grade for each student, the class, and 
-        displays the students that have made the honor roll
+        displays the students that have made the honor roll. The full
+        academic report can also be sorted by last name and ID
 
 author: Dylan McCallum
-date: 03DEC24
+date: 10DEC24
 '''
 
 # import required modules
@@ -22,7 +23,8 @@ student_list = []
 
 # define a main function to run the entire script
 def main():
-    '''Runs the entire script by reading the input file, processing its
+    '''
+    Runs the entire script by reading the input file, processing its
         its contents, then displaying the file in one of two different outputs
         depending on what the user wants to see
 
@@ -38,15 +40,13 @@ def main():
 
     # Invoke required menu functions
     
+    
     get_employees()
     get_students()
     get_student_scores()
     create_menu()
     
-    #print(student_list)
-    sort_student_list_by_last_name(student_list)
     
-
 # declare a function to get the employees
 
 def get_employees():
@@ -183,11 +183,11 @@ def create_menu():
             elif selection == '9':
                 
                 # displays full academic report sorted by last name
-                display_full_academic_report_last_name()
+                display_full_academic_report_last_name(student_list, score_info)
             elif selection == '10':
                 
                 # displays full academic report sorted by ID
-                display_full_academic_report_ID()
+                display_full_academic_report_ID(student_list, score_info)
             else:
 
                 # if invalid entry has been made
@@ -569,6 +569,7 @@ def look_up_student_academic_record(student_list, score_info):
               "Please try again or enter 1 to quit"
               )
     
+    
     scores = score_info.get(student_id, [])
     if scores:
         report = single_student.get_student_academic_report(scores)
@@ -824,16 +825,89 @@ def get_honor_roll(student_list, score_info):
                       f"{report['average']:<14.1f} {report['grade']:<15}"
                      )
 
+# declare helper functions to help sort by last name
+
 def sort_student_list_by_last_name(student_list):
+    '''
+    This function receives the list of students, sorts it by last name then
+    returns the output.
     
-    #start here
-    pass
+    action: Sorts the list by last name
+    input: student_list
+    output: None
+    return: The list ordered by last name
+    '''
+    ordered_list = sorted(student_list, key=lambda x: x.l_name)
     
-        
-                
+    # returns the sorted list
+    
+    return ordered_list
+
+def display_full_academic_report_last_name(student_list, score_info):
+    '''
+    This function assigns a variable to the function
+    sort_student_list_by_last_name and passes it as a parameter into
+    display_full_student_academic_report along with score_info
+    
+    action: stores the sorted list as a variable and passes it as an argument
+            for display_full_student_academic_report with score_info
+    
+    input: student_list and score_info
+    output: displays the full academic report organized by last name
+    return: none
+    '''
+    # stores the sorted list into a variable
+    
+    sorted_list = sort_student_list_by_last_name(student_list)
+    
+    # invokes the funtion with a newly sorted list
+    
+    display_full_student_academic_report(sorted_list, score_info)
+
+# declare helper functions to help sort by ID
+
+def sort_student_list_by_ID(student_list):
+    '''
+    This function receives the list of students, sorts it by ID then
+    returns the output.
+    
+    action: Sorts the list by ID
+    input: student_list
+    output: None
+    return: The list ordered by ID
+    '''
+    ordered_list = sorted(student_list, key=lambda x: x.id_num)
+    
+    # returns the sorted list by ID
+    
+    return ordered_list
+
+def display_full_academic_report_ID(student_list, score_info):
+    '''
+    This function assigns a variable to the function
+    sort_student_list_by_ID and passes it as a parameter into
+    display_full_student_academic_report along with score_info
+    
+    action: stores the sorted list as a variable and passes it as an argument
+            for display_full_student_academic_report with score_info
+    
+    input: student_list and score_info
+    output: displays the full academic report organized by ID
+    return: none
+    '''
+    
+    # stores the sorted list into a variable
+    
+    sorted_list = sort_student_list_by_ID(student_list)
+    
+    # invokes the function with a newly sorted list
+    
+    display_full_student_academic_report(sorted_list, score_info)
+    
 # declare global function to take the student scores results
 
 score_info = get_student_scores()
+
 
 class Person(ABC):
     '''Abstract class person'''
@@ -918,7 +992,6 @@ class Person(ABC):
 
         if len(phone_num) != 12:
             raise Exception("Enter a proper phone number with dashes")
-
 
         self._phone_num = phone_num
 
@@ -1091,7 +1164,6 @@ class Student(Person):
         # declare a dictionary to store scores for students
         self.courses_student_dict = {}
 
-
     def get_high_score(self, scores):
         '''retrieves the highest scores from each subject'''
         return max(scores)
@@ -1111,7 +1183,6 @@ class Student(Person):
         if grade_average >= 90:
             letter_grade = 'A'
             
-                
         elif grade_average >= 80:
             letter_grade = 'B'
                 
